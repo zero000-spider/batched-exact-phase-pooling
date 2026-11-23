@@ -1,0 +1,130 @@
+{
+  "case": "hand_32",
+  "seed": 23,
+  "method": "eippv",
+  "budget": 9996,
+  "feature_dim": 9996,
+  "accuracy": 0.9168918918918919,
+  "flip": 0.03986486486486487,
+  "clean_accuracy": 0.9027027027027027,
+  "worst_phase_accuracy": 0.9108108108108108,
+  "selected": {
+    "alpha": 1000
+  },
+  "cv": [
+    {
+      "alpha": 0.1,
+      "mean_score": 0.873
+    },
+    {
+      "alpha": 1,
+      "mean_score": 0.873
+    },
+    {
+      "alpha": 10,
+      "mean_score": 0.873
+    },
+    {
+      "alpha": 100,
+      "mean_score": 0.882
+    },
+    {
+      "alpha": 1000,
+      "mean_score": 0.898
+    }
+  ],
+  "fold_validation": [
+    {
+      "fold": 0,
+      "alpha": 0.1,
+      "correct": 294,
+      "total": 334
+    },
+    {
+      "fold": 0,
+      "alpha": 1,
+      "correct": 294,
+      "total": 334
+    },
+    {
+      "fold": 0,
+      "alpha": 10,
+      "correct": 294,
+      "total": 334
+    },
+    {
+      "fold": 0,
+      "alpha": 100,
+      "correct": 297,
+      "total": 334
+    },
+    {
+      "fold": 0,
+      "alpha": 1000,
+      "correct": 300,
+      "total": 334
+    },
+    {
+      "fold": 1,
+      "alpha": 0.1,
+      "correct": 288,
+      "total": 333
+    },
+    {
+      "fold": 1,
+      "alpha": 1,
+      "correct": 288,
+      "total": 333
+    },
+    {
+      "fold": 1,
+      "alpha": 10,
+      "correct": 289,
+      "total": 333
+    },
+    {
+      "fold": 1,
+      "alpha": 100,
+      "correct": 290,
+      "total": 333
+    },
+    {
+      "fold": 1,
+      "alpha": 1000,
+      "correct": 296,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 0.1,
+      "correct": 291,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 1,
+      "correct": 291,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 10,
+      "correct": 290,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 100,
+      "correct": 295,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 1000,
+      "correct": 302,
+      "total": 333
+    }
+  ],
+  "seconds": 21.593000000008033,
+  "input_sha256": "1b5e155220053ed559bf14adc2a98c809b8b7ed9beb0492246d456938653b3eb"
+}

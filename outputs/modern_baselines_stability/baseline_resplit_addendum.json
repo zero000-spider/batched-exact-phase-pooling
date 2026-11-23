@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-16",
+  "before_additional_results": true,
+  "reason": "After original-split strong baselines completed, extend both author recipes to all five pre-existing resplits so their comparison with EI is not restricted to one partition. Original protocol and results retained; this is a follow-up design addition, not preregistration.",
+  "configurations": 80,
+  "model_seed": 23,
+  "split_seeds": [
+    101,
+    211,
+    307,
+    401,
+    503
+  ],
+  "recipes": [
+    "multi_standard",
+    "self_standard"
+  ],
+  "cases": [
+    "mpeg7_32",
+    "mpeg7_64",
+    "hand_32",
+    "hand_64",
+    "fish_32",
+    "fish_64",
+    "osuleaf_32",
+    "osuleaf_64"
+  ]
+}

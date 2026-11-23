@@ -1,0 +1,107 @@
+{
+  "case": "fish_64",
+  "recipe": "multi_controlled",
+  "seed": 23,
+  "split": 0,
+  "accuracy_pct": 97.85714285714285,
+  "flip_pct": 1.5714285714285716,
+  "objects": 175,
+  "input_sha256": "55d4d6f7a13da8dae4182f94c95569b8e7cc2108473661f53b663d6299a9e954",
+  "selected": {
+    "alpha": 0.1,
+    "feature_dim": 9408,
+    "cv": [
+      {
+        "fold": 0,
+        "alpha": 0.1,
+        "correct": 55,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 1,
+        "correct": 55,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 10,
+        "correct": 55,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 100,
+        "correct": 55,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 1000,
+        "correct": 56,
+        "total": 59
+      },
+      {
+        "fold": 1,
+        "alpha": 0.1,
+        "correct": 50,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 1,
+        "correct": 50,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 10,
+        "correct": 50,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 100,
+        "correct": 50,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 1000,
+        "correct": 50,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 0.1,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 1,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 10,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 100,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 1000,
+        "correct": 53,
+        "total": 58
+      }
+    ]
+  },
+  "seconds": 3.510413400013931
+}

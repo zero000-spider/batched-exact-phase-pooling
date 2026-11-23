@@ -1,0 +1,108 @@
+{
+  "case": "osuleaf_32",
+  "recipe": "eippv",
+  "seed": 23,
+  "split": 503,
+  "accuracy_pct": 83.88429752066115,
+  "flip_pct": 3.4090909090909087,
+  "objects": 242,
+  "input_sha256": "113c41ffb663a111b6ae5d78bf3242816015f5eea0b567cdbe98aa41501738a5",
+  "selected": {
+    "alpha": 1000,
+    "feature_dim": 9996,
+    "cv": [
+      {
+        "fold": 0,
+        "alpha": 0.1,
+        "correct": 51,
+        "total": 67
+      },
+      {
+        "fold": 0,
+        "alpha": 1,
+        "correct": 51,
+        "total": 67
+      },
+      {
+        "fold": 0,
+        "alpha": 10,
+        "correct": 51,
+        "total": 67
+      },
+      {
+        "fold": 0,
+        "alpha": 100,
+        "correct": 51,
+        "total": 67
+      },
+      {
+        "fold": 0,
+        "alpha": 1000,
+        "correct": 52,
+        "total": 67
+      },
+      {
+        "fold": 1,
+        "alpha": 0.1,
+        "correct": 47,
+        "total": 67
+      },
+      {
+        "fold": 1,
+        "alpha": 1,
+        "correct": 47,
+        "total": 67
+      },
+      {
+        "fold": 1,
+        "alpha": 10,
+        "correct": 47,
+        "total": 67
+      },
+      {
+        "fold": 1,
+        "alpha": 100,
+        "correct": 47,
+        "total": 67
+      },
+      {
+        "fold": 1,
+        "alpha": 1000,
+        "correct": 51,
+        "total": 67
+      },
+      {
+        "fold": 2,
+        "alpha": 0.1,
+        "correct": 51,
+        "total": 66
+      },
+      {
+        "fold": 2,
+        "alpha": 1,
+        "correct": 51,
+        "total": 66
+      },
+      {
+        "fold": 2,
+        "alpha": 10,
+        "correct": 51,
+        "total": 66
+      },
+      {
+        "fold": 2,
+        "alpha": 100,
+        "correct": 51,
+        "total": 66
+      },
+      {
+        "fold": 2,
+        "alpha": 1000,
+        "correct": 51,
+        "total": 66
+      }
+    ]
+  },
+  "seconds": 9.355612399987876,
+  "execution": "four-method shared-transform batch; seconds is joint total, not individual cost"
+}

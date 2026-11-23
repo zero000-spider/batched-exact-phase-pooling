@@ -1,0 +1,4 @@
+{
+  "date": "2026-11-16",
+  "policy": "High-K numerical/prediction diagnostics may overlap independent baseline fits. Timing is a separate phase loaded from saved fitted parameters, run only after all other experiment workers finish. The timing phase uses identical batch64, two Numba threads, one BLAS thread, seven randomized-order paired repeats."
+}

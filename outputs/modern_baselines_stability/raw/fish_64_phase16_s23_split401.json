@@ -1,0 +1,108 @@
+{
+  "case": "fish_64",
+  "recipe": "phase16",
+  "seed": 23,
+  "split": 401,
+  "accuracy_pct": 97.0,
+  "flip_pct": 0.4285714285714286,
+  "objects": 175,
+  "input_sha256": "93c063f040d7bb48a7bed101ea96f070f17e4d33bd7a724f5f004090ad2879fd",
+  "selected": {
+    "alpha": 1000,
+    "feature_dim": 9996,
+    "cv": [
+      {
+        "fold": 0,
+        "alpha": 0.1,
+        "correct": 55,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 1,
+        "correct": 55,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 10,
+        "correct": 55,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 100,
+        "correct": 55,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 1000,
+        "correct": 56,
+        "total": 59
+      },
+      {
+        "fold": 1,
+        "alpha": 0.1,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 1,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 10,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 100,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 1000,
+        "correct": 54,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 0.1,
+        "correct": 53,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 1,
+        "correct": 53,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 10,
+        "correct": 53,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 100,
+        "correct": 53,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 1000,
+        "correct": 53,
+        "total": 58
+      }
+    ]
+  },
+  "seconds": 9.400415099982638,
+  "execution": "four-method shared-transform batch; seconds is joint total, not individual cost"
+}

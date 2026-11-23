@@ -1,0 +1,9 @@
+{
+  "response_cases": 791,
+  "threshold_queries": 181591,
+  "maximum_EI_feature_difference": 3.33315597345063e-11,
+  "decimal_reference_cases": 48,
+  "maximum_decimal_difference": 2.9802322387695312e-08,
+  "tolerance": 2e-07,
+  "finite_K_discrepancies": []
+}

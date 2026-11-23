@@ -1,0 +1,133 @@
+{
+  "frozen_sources_match": true,
+  "previous_evidence_preserved": {
+    "evidence_chain_strict": {
+      "files": 604,
+      "all_sha256_match": true
+    },
+    "modern_baselines_stability": {
+      "files": 847,
+      "all_sha256_match": true
+    }
+  },
+  "relocated_full_pipeline_replay": {
+    "case": "fish_32",
+    "seed": 23,
+    "test_predictions": 1575,
+    "prediction_mismatches": 0,
+    "alpha_identical": true,
+    "cv_counts_identical": true,
+    "fresh_dependency_installation_tested": false
+  },
+  "final_large_budget_replays": {
+    "configurations": 16,
+    "predictions": 53496,
+    "all_predictions_alpha_cv_identical": true,
+    "pooling_source_sha256": "47e2ffe2113657bd8e9a034cf8af65050886134e5379cb7ef0d4309fe3b3bd64",
+    "configurations_checked": [
+      {
+        "case": "mpeg7_32",
+        "backend": "hybrid",
+        "predictions": 6291
+      },
+      {
+        "case": "mpeg7_32",
+        "backend": "K32",
+        "predictions": 6291
+      },
+      {
+        "case": "mpeg7_64",
+        "backend": "hybrid",
+        "predictions": 6291
+      },
+      {
+        "case": "mpeg7_64",
+        "backend": "K32",
+        "predictions": 6291
+      },
+      {
+        "case": "hand_32",
+        "backend": "hybrid",
+        "predictions": 3330
+      },
+      {
+        "case": "hand_32",
+        "backend": "K32",
+        "predictions": 3330
+      },
+      {
+        "case": "hand_64",
+        "backend": "hybrid",
+        "predictions": 3330
+      },
+      {
+        "case": "hand_64",
+        "backend": "K32",
+        "predictions": 3330
+      },
+      {
+        "case": "fish_32",
+        "backend": "hybrid",
+        "predictions": 1575
+      },
+      {
+        "case": "fish_32",
+        "backend": "K32",
+        "predictions": 1575
+      },
+      {
+        "case": "fish_64",
+        "backend": "hybrid",
+        "predictions": 1575
+      },
+      {
+        "case": "fish_64",
+        "backend": "K32",
+        "predictions": 1575
+      },
+      {
+        "case": "osuleaf_32",
+        "backend": "hybrid",
+        "predictions": 2178
+      },
+      {
+        "case": "osuleaf_32",
+        "backend": "K32",
+        "predictions": 2178
+      },
+      {
+        "case": "osuleaf_64",
+        "backend": "hybrid",
+        "predictions": 2178
+      },
+      {
+        "case": "osuleaf_64",
+        "backend": "K32",
+        "predictions": 2178
+      }
+    ]
+  },
+  "asymmetric_numerical_followup": {
+    "response_cases": 420,
+    "threshold_queries": 190890,
+    "maximum_abs_difference": 9.831045844066466e-08,
+    "worst_case": {
+      "length": 4,
+      "exponent": -9,
+      "trial": 3
+    },
+    "decimal_cases": 7,
+    "maximum_decimal_difference": 3.212519883444287e-08,
+    "tolerance": 2e-07,
+    "pooling_source_sha256": "47e2ffe2113657bd8e9a034cf8af65050886134e5379cb7ef0d4309fe3b3bd64",
+    "scope": "follow-up asymmetric short-edge cancellation audit; no labels; frozen implementation unchanged"
+  },
+  "main_labels_and_references_resolve": true,
+  "new_plot_previews_visually_inspected": [
+    "feature_speedups.png",
+    "end_to_end_speedups.png",
+    "synthetic_scaling.png"
+  ],
+  "manuscript_tex_compiled": false,
+  "manuscript_page_layout_verified": false
+}

@@ -1,0 +1,38 @@
+{
+  "MultiRocket": {
+    "commit": "3ccaa4f8ed11769b904af885e17018c39c89a2ac",
+    "url": "https://github.com/ChangWeiTan/MultiRocket",
+    "files": {
+      "main_mtsc.py": "f1ae44c96af4297aca62456df83d712a31ef71d0396e1887f787a7647dbcaecb",
+      "main_ucr.py": "9727546f3d46b6e754278a9246bf6688f8197ef3b2acfacc57d38d176c0453ae",
+      "main_ucr_109.py": "931da7b6c03249ce6dd8216248074e9d7cafec61a4e5c93e5fbe42f1cfd9b314",
+      "setup.py": "9b4f7e5a699960a27141ef078c51415ba32312f0037c1cf1173b5af22ef7ef77",
+      "multirocket/logistic_regression.py": "18385fe5f60f5713a0338b4f0aeae9a388342e3e0fdb31e86cb61fd9180ce263",
+      "multirocket/multirocket.py": "9af532d7718dc3a7f9a7ac3ca385f47a4cff3591b10efd2346c32b89baa619fc",
+      "multirocket/multirocket_multivariate.py": "7db13ab78c4e4fd1e1219727d465d0181a9c4bcbac83915f6d760536359a8ea8",
+      "multirocket/__init__.py": "815b7a5266453b54b054f7de38a83b40748b0044d1db6793e5681d8fcc3ad098",
+      "utils/data_loader.py": "17088cb4e9008b9d0570b393177124b7bd3065df9d9b33a265af2bde86902a74",
+      "utils/tools.py": "71e5c4e31bc9945dabca4dfde1b0f382a79e9749a18023057eebacd57c5dc83a"
+    }
+  },
+  "SelF-Rocket": {
+    "commit": "0c7d18c791181a9b8817d420711b148eaf395cf7",
+    "url": "https://github.com/ANR-MYEL/SelF-Rocket",
+    "files": {
+      "code/features_generator.py": "4a45deffd44e399ea8bda5478d26d3e28cc75db44a9244b6e181835f00ed0246",
+      "code/hydra.py": "e2c22b3d51c6bee9cd6779d71ada46a30e7747e12f5784a296894168cb0a9187",
+      "code/hydra_self_rocket.py": "51949427d40e0593319a7abd7d81dddc606799891db0bad34d027470955e80d1",
+      "code/main_ucr112_HSR.py": "636bdeaabba96a7de8169a5c843b224ed8e5c88d46d49d7725591758583bfcb0",
+      "code/main_ucr112_SR.py": "dfdd98989a3dc9f13725aca046dd4b94d27807eb6afda721bb07703a70261a40",
+      "code/performance_mod_minirocket.py": "d7ad3d19f648e638e93270a682155dcc957aa965c211914219c6becd12510905",
+      "code/self_rocket.py": "94292ac9e3f0a414ef25ead74abe6ce4a3279beed9bf6f3d9c96c1436aad2d85"
+    }
+  },
+  "MiniRocket": {
+    "url": "https://github.com/angus924/minirocket",
+    "commit": "0b1c245d9c9dbc50886f28bc7b32d5d45b5663d6",
+    "files": {
+      "minirocket.py": "d72107e43f65884ed337af5a97bd03ccdefbab9d0f26e1d17f1f9bd15fdfea80"
+    }
+  }
+}

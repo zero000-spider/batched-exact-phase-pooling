@@ -1,0 +1,19 @@
+{
+  "case": "hand_64",
+  "recipe": "self_standard",
+  "seed": 23,
+  "split": 307,
+  "accuracy_pct": 93.75,
+  "flip_pct": 2.060810810810811,
+  "objects": 370,
+  "input_sha256": "1a7fed920449c309b200471ef70e6d11835c062db09b4d9ee9e4e453d82a5138",
+  "selected": {
+    "alpha": 1000.0,
+    "feature_dim": 19992,
+    "generated_feature_dim": 99960,
+    "selected_pooling": "PPV_MIX",
+    "num_runs": 10,
+    "mini_classifier_features": 5000
+  },
+  "seconds": 21.580673799995566
+}

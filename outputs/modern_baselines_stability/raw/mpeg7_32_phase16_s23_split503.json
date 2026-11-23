@@ -1,0 +1,108 @@
+{
+  "case": "mpeg7_32",
+  "recipe": "phase16",
+  "seed": 23,
+  "split": 503,
+  "accuracy_pct": 87.8755364806867,
+  "flip_pct": 3.1473533619456364,
+  "objects": 699,
+  "input_sha256": "f0519ccc1bdb486c240ec3826f35cad6cdd60fe20df3ab1c06d93b4999ef1663",
+  "selected": {
+    "alpha": 100,
+    "feature_dim": 9996,
+    "cv": [
+      {
+        "fold": 0,
+        "alpha": 0.1,
+        "correct": 195,
+        "total": 234
+      },
+      {
+        "fold": 0,
+        "alpha": 1,
+        "correct": 196,
+        "total": 234
+      },
+      {
+        "fold": 0,
+        "alpha": 10,
+        "correct": 196,
+        "total": 234
+      },
+      {
+        "fold": 0,
+        "alpha": 100,
+        "correct": 196,
+        "total": 234
+      },
+      {
+        "fold": 0,
+        "alpha": 1000,
+        "correct": 195,
+        "total": 234
+      },
+      {
+        "fold": 1,
+        "alpha": 0.1,
+        "correct": 198,
+        "total": 234
+      },
+      {
+        "fold": 1,
+        "alpha": 1,
+        "correct": 198,
+        "total": 234
+      },
+      {
+        "fold": 1,
+        "alpha": 10,
+        "correct": 198,
+        "total": 234
+      },
+      {
+        "fold": 1,
+        "alpha": 100,
+        "correct": 198,
+        "total": 234
+      },
+      {
+        "fold": 1,
+        "alpha": 1000,
+        "correct": 197,
+        "total": 234
+      },
+      {
+        "fold": 2,
+        "alpha": 0.1,
+        "correct": 208,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 1,
+        "correct": 208,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 10,
+        "correct": 208,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 100,
+        "correct": 209,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 1000,
+        "correct": 207,
+        "total": 233
+      }
+    ]
+  },
+  "seconds": 19.96471329999622,
+  "execution": "four-method shared-transform batch; seconds is joint total, not individual cost"
+}

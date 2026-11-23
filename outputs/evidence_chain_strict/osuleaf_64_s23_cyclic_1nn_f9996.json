@@ -1,0 +1,17 @@
+{
+  "case": "osuleaf_64",
+  "seed": 23,
+  "method": "cyclic_1nn",
+  "budget": 9996,
+  "feature_dim": 64,
+  "accuracy": 0.7215909090909091,
+  "flip": 0.05165289256198347,
+  "clean_accuracy": 0.71900826446281,
+  "worst_phase_accuracy": 0.6983471074380165,
+  "selected": {},
+  "cv": [],
+  "fold_validation": [],
+  "validation_scheme": "StratifiedKFold",
+  "seconds": 0.17199999999138527,
+  "input_sha256": "9081a2f4b632e8affa7c224f721604c6470956a9eb7f0747a3facbc102dfaf3b"
+}

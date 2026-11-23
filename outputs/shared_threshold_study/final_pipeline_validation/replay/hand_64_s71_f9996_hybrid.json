@@ -1,0 +1,108 @@
+{
+  "case": "hand_64",
+  "seed": 71,
+  "budget": 9996,
+  "backend": "hybrid",
+  "alpha": 1000,
+  "feature_dim": 9996,
+  "accuracy_pct": 93.17567567567568,
+  "flip_pct": 0.945945945945946,
+  "input_sha256": "9e067c4ff313933eff6bbe00b65b13352427fd53f6497a41030d9591a02d3f52",
+  "cv": [
+    {
+      "fold": 0,
+      "alpha": 0.1,
+      "correct": 299,
+      "total": 334
+    },
+    {
+      "fold": 0,
+      "alpha": 1,
+      "correct": 299,
+      "total": 334
+    },
+    {
+      "fold": 0,
+      "alpha": 10,
+      "correct": 299,
+      "total": 334
+    },
+    {
+      "fold": 0,
+      "alpha": 100,
+      "correct": 302,
+      "total": 334
+    },
+    {
+      "fold": 0,
+      "alpha": 1000,
+      "correct": 306,
+      "total": 334
+    },
+    {
+      "fold": 1,
+      "alpha": 0.1,
+      "correct": 301,
+      "total": 333
+    },
+    {
+      "fold": 1,
+      "alpha": 1,
+      "correct": 301,
+      "total": 333
+    },
+    {
+      "fold": 1,
+      "alpha": 10,
+      "correct": 301,
+      "total": 333
+    },
+    {
+      "fold": 1,
+      "alpha": 100,
+      "correct": 308,
+      "total": 333
+    },
+    {
+      "fold": 1,
+      "alpha": 1000,
+      "correct": 309,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 0.1,
+      "correct": 292,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 1,
+      "correct": 292,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 10,
+      "correct": 292,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 100,
+      "correct": 297,
+      "total": 333
+    },
+    {
+      "fold": 2,
+      "alpha": 1000,
+      "correct": 303,
+      "total": 333
+    }
+  ],
+  "seconds": 9.088417399994796,
+  "prior_predictions": 3330,
+  "prediction_mismatches": 0,
+  "alpha_identical": true,
+  "cv_counts_identical": true
+}

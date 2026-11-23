@@ -1,0 +1,18 @@
+{
+  "source_url": "https://dabi.temple.edu/external/shape/MPEG7/MPEG7dataset.zip",
+  "retained_container_sha256": "331b197caf51b0a3cfd76852aeec46b1fb839fa9374b2a7302754cb92fe0680c",
+  "public_container_sha256": "ce8d87409d1b87b07352ebf6e0eafb8884bea6e4027cb7a23c228e7a3685bd0d",
+  "retained_bytes": 3422217,
+  "public_bytes": 3380427,
+  "selected_gifs": 1400,
+  "identical_names": true,
+  "identical_processing_order": true,
+  "identical_file_bytes": true,
+  "selected_member_manifest_sha256": "270e5645a307d87d21f6136b2fb38e272c459e2518f302bbd997562beac09c50",
+  "distinction": "ZIP directory prefixes and auxiliary entries differ; all 1400 study GIFs are byte-identical.",
+  "processed_radius_arrays_identical": true,
+  "processed_shape": [
+    1400,
+    512
+  ]
+}

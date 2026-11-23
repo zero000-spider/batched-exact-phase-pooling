@@ -1,0 +1,17 @@
+{
+  "case": "fish_64",
+  "seed": 23,
+  "method": "cyclic_1nn",
+  "budget": 9996,
+  "feature_dim": 64,
+  "accuracy": 0.8407142857142857,
+  "flip": 0.12071428571428572,
+  "clean_accuracy": 0.8285714285714286,
+  "worst_phase_accuracy": 0.8171428571428572,
+  "selected": {},
+  "cv": [],
+  "fold_validation": [],
+  "validation_scheme": "StratifiedKFold",
+  "seconds": 0.125,
+  "input_sha256": "55d4d6f7a13da8dae4182f94c95569b8e7cc2108473661f53b663d6299a9e954"
+}

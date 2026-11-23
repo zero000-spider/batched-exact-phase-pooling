@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-16",
+  "before_high_k_execution": true,
+  "K_values": [
+    16,
+    32,
+    64,
+    128,
+    1024
+  ],
+  "reason": "Optimized crossing-count complexity does not grow linearly in K; include a much finer numerical reference instead of testing only modest K. No K-specific test result used in this decision.",
+  "scope": "Fixed EI-trained classifier only; this does not measure a separately retrained K1024 model."
+}

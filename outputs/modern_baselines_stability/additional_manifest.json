@@ -1,0 +1,482 @@
+[
+  {
+    "case": "mpeg7_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "mpeg7_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "mpeg7_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "hand_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "hand_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "hand_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "hand_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "hand_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "hand_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "hand_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "hand_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "hand_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "hand_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "hand_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "hand_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "hand_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "hand_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "hand_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "hand_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "hand_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "hand_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "hand_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "hand_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "fish_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "fish_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "fish_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "fish_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "fish_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "fish_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "fish_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "fish_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "fish_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "fish_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "fish_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "fish_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "fish_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "fish_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "fish_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "fish_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "fish_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "fish_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "fish_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "fish_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "osuleaf_32",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 101
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 211
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 307
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 401
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "multi_standard",
+    "seed": 23,
+    "split": 503
+  },
+  {
+    "case": "osuleaf_64",
+    "recipe": "self_standard",
+    "seed": 23,
+    "split": 503
+  }
+]

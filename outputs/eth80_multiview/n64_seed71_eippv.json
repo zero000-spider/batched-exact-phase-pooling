@@ -1,0 +1,13 @@
+{
+  "n": 64,
+  "seed": 71,
+  "method": "eippv",
+  "accuracy": 0.5323170731707317,
+  "flip": 0.6481250000000001,
+  "alpha": 0.1,
+  "seconds": 4.782000000006519,
+  "train_objects": 40,
+  "test_objects": 40,
+  "train_images": 200,
+  "test_images": 1640
+}

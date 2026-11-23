@@ -1,0 +1,15 @@
+{
+  "case": "hand_32",
+  "recipe": "multi_standard",
+  "seed": 23,
+  "split": 0,
+  "accuracy_pct": 83.04054054054055,
+  "flip_pct": 15.337837837837837,
+  "objects": 370,
+  "input_sha256": "1b5e155220053ed559bf14adc2a98c809b8b7ed9beb0492246d456938653b3eb",
+  "selected": {
+    "alpha": 1000.0,
+    "feature_dim": 49728
+  },
+  "seconds": 6.047350599983474
+}

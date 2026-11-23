@@ -1,0 +1,104 @@
+{
+  "case": "mpeg7_64",
+  "seed": 71,
+  "method": "fourier_svm",
+  "budget": 9996,
+  "feature_dim": 32,
+  "accuracy": 0.78375,
+  "flip": 0.11553571428571428,
+  "clean_accuracy": 0.7971428571428572,
+  "worst_phase_accuracy": 0.7757142857142857,
+  "selected": {
+    "svc__C": 100,
+    "svc__gamma": "scale"
+  },
+  "cv": [
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.37573212036731346
+    },
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.36717288434026635
+    },
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.2556827213479574
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.5256532531210643
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.5414144748908697
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.39138940855679055
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.6871048995512514
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.6528435004829855
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.4199772568871281
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.6956641355782986
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.651418999058484
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.4199772568871281
+    }
+  ],
+  "fold_validation": [],
+  "seconds": 2.0939999999973224,
+  "input_sha256": "c84ea7396c05184ceb11eb57c8235e8e775f65f554c1047ef2256f205e9e6947"
+}

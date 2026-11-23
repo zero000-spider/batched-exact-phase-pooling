@@ -1,0 +1,15 @@
+{
+  "case": "fish_32",
+  "recipe": "multi_standard",
+  "seed": 23,
+  "split": 401,
+  "accuracy_pct": 90.28571428571428,
+  "flip_pct": 6.0,
+  "objects": 175,
+  "input_sha256": "88361bbcd02c073c6bfbd2d187a8aa16c269a7d9564b41c50f9f4076c2361b8f",
+  "selected": {
+    "alpha": 0.001,
+    "feature_dim": 49728
+  },
+  "seconds": 1.4528844000014942
+}

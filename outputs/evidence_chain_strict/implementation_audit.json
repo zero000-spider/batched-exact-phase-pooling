@@ -1,0 +1,80 @@
+[
+  {
+    "test": "quadrature",
+    "K": 2,
+    "pairs": 11089,
+    "passed": true
+  },
+  {
+    "test": "quadrature",
+    "K": 4,
+    "pairs": 11089,
+    "passed": true
+  },
+  {
+    "test": "quadrature",
+    "K": 8,
+    "pairs": 11089,
+    "passed": true
+  },
+  {
+    "test": "quadrature",
+    "K": 16,
+    "pairs": 11089,
+    "passed": true
+  },
+  {
+    "test": "quadrature",
+    "K": 32,
+    "pairs": 11089,
+    "passed": true
+  },
+  {
+    "test": "integer_shift_feature_invariance",
+    "method": "circular",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "integer_shift_feature_invariance",
+    "method": "blur",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "integer_shift_feature_invariance",
+    "method": "phase4",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "integer_shift_feature_invariance",
+    "method": "phase16",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "integer_shift_feature_invariance",
+    "method": "phase32",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "integer_shift_feature_invariance",
+    "method": "eippv",
+    "max_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "cyclic_distance_fft_vs_enumeration",
+    "length": 32,
+    "pairs": 84,
+    "passed": true
+  },
+  {
+    "test": "cyclic_distance_fft_vs_enumeration",
+    "length": 64,
+    "pairs": 84,
+    "passed": true
+  }
+]

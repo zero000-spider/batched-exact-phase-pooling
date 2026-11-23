@@ -1,0 +1,108 @@
+{
+  "case": "fish_32",
+  "recipe": "phase32",
+  "seed": 23,
+  "split": 307,
+  "accuracy_pct": 94.42857142857143,
+  "flip_pct": 2.0,
+  "objects": 175,
+  "input_sha256": "ca4c99873e962844ea3916b2972ecc019d993db3e62a5598098d150f6feb2799",
+  "selected": {
+    "alpha": 0.1,
+    "feature_dim": 9996,
+    "cv": [
+      {
+        "fold": 0,
+        "alpha": 0.1,
+        "correct": 56,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 1,
+        "correct": 56,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 10,
+        "correct": 56,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 100,
+        "correct": 56,
+        "total": 59
+      },
+      {
+        "fold": 0,
+        "alpha": 1000,
+        "correct": 56,
+        "total": 59
+      },
+      {
+        "fold": 1,
+        "alpha": 0.1,
+        "correct": 52,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 1,
+        "correct": 52,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 10,
+        "correct": 52,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 100,
+        "correct": 52,
+        "total": 58
+      },
+      {
+        "fold": 1,
+        "alpha": 1000,
+        "correct": 52,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 0.1,
+        "correct": 52,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 1,
+        "correct": 52,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 10,
+        "correct": 52,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 100,
+        "correct": 51,
+        "total": 58
+      },
+      {
+        "fold": 2,
+        "alpha": 1000,
+        "correct": 52,
+        "total": 58
+      }
+    ]
+  },
+  "seconds": 8.77778119998402,
+  "execution": "four-method shared-transform batch; seconds is joint total, not individual cost"
+}

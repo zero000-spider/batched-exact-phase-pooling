@@ -1,0 +1,107 @@
+{
+  "case": "hand_64",
+  "recipe": "eippv_controlled",
+  "seed": 23,
+  "split": 0,
+  "accuracy_pct": 92.9054054054054,
+  "flip_pct": 1.0135135135135136,
+  "objects": 370,
+  "input_sha256": "9e067c4ff313933eff6bbe00b65b13352427fd53f6497a41030d9591a02d3f52",
+  "selected": {
+    "alpha": 1000,
+    "feature_dim": 9408,
+    "cv": [
+      {
+        "fold": 0,
+        "alpha": 0.1,
+        "correct": 297,
+        "total": 334
+      },
+      {
+        "fold": 0,
+        "alpha": 1,
+        "correct": 297,
+        "total": 334
+      },
+      {
+        "fold": 0,
+        "alpha": 10,
+        "correct": 299,
+        "total": 334
+      },
+      {
+        "fold": 0,
+        "alpha": 100,
+        "correct": 300,
+        "total": 334
+      },
+      {
+        "fold": 0,
+        "alpha": 1000,
+        "correct": 307,
+        "total": 334
+      },
+      {
+        "fold": 1,
+        "alpha": 0.1,
+        "correct": 305,
+        "total": 333
+      },
+      {
+        "fold": 1,
+        "alpha": 1,
+        "correct": 305,
+        "total": 333
+      },
+      {
+        "fold": 1,
+        "alpha": 10,
+        "correct": 305,
+        "total": 333
+      },
+      {
+        "fold": 1,
+        "alpha": 100,
+        "correct": 311,
+        "total": 333
+      },
+      {
+        "fold": 1,
+        "alpha": 1000,
+        "correct": 310,
+        "total": 333
+      },
+      {
+        "fold": 2,
+        "alpha": 0.1,
+        "correct": 297,
+        "total": 333
+      },
+      {
+        "fold": 2,
+        "alpha": 1,
+        "correct": 297,
+        "total": 333
+      },
+      {
+        "fold": 2,
+        "alpha": 10,
+        "correct": 298,
+        "total": 333
+      },
+      {
+        "fold": 2,
+        "alpha": 100,
+        "correct": 299,
+        "total": 333
+      },
+      {
+        "fold": 2,
+        "alpha": 1000,
+        "correct": 301,
+        "total": 333
+      }
+    ]
+  },
+  "seconds": 21.07917240000097
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "case": "mpeg7_32",
+    "method": "circular",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "mpeg7_32",
+    "method": "phase16",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "mpeg7_32",
+    "method": "phase32",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "mpeg7_32",
+    "method": "eippv",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "mpeg7_64",
+    "method": "circular",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "mpeg7_64",
+    "method": "phase16",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "mpeg7_64",
+    "method": "phase32",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "mpeg7_64",
+    "method": "eippv",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "hand_32",
+    "method": "circular",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "hand_32",
+    "method": "phase16",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "hand_32",
+    "method": "phase32",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "hand_32",
+    "method": "eippv",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "hand_64",
+    "method": "circular",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "hand_64",
+    "method": "phase16",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "hand_64",
+    "method": "phase32",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "hand_64",
+    "method": "eippv",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "fish_32",
+    "method": "circular",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "fish_32",
+    "method": "phase16",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "fish_32",
+    "method": "phase32",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "fish_32",
+    "method": "eippv",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "fish_64",
+    "method": "circular",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "fish_64",
+    "method": "phase16",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "fish_64",
+    "method": "phase32",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "fish_64",
+    "method": "eippv",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "osuleaf_32",
+    "method": "circular",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "osuleaf_32",
+    "method": "phase16",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "osuleaf_32",
+    "method": "phase32",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "osuleaf_32",
+    "method": "eippv",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "osuleaf_64",
+    "method": "circular",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "osuleaf_64",
+    "method": "phase16",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "osuleaf_64",
+    "method": "phase32",
+    "values": 49980,
+    "bitwise_identical": true
+  },
+  {
+    "case": "osuleaf_64",
+    "method": "eippv",
+    "values": 49980,
+    "bitwise_identical": true
+  }
+]

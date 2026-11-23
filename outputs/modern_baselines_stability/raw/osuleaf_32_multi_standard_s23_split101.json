@@ -1,0 +1,15 @@
+{
+  "case": "osuleaf_32",
+  "recipe": "multi_standard",
+  "seed": 23,
+  "split": 101,
+  "accuracy_pct": 79.75206611570248,
+  "flip_pct": 9.400826446280993,
+  "objects": 242,
+  "input_sha256": "08e2dbdc3d5aa6a6d68d273fb460a298eb2dfdac6aa7aa159c0276c868e84688",
+  "selected": {
+    "alpha": 0.001,
+    "feature_dim": 49728
+  },
+  "seconds": 1.8982939000125043
+}

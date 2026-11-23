@@ -1,0 +1,5 @@
+{
+  "created_utc": "2026-11-15T13:29:18.939713+00:00",
+  "reason": "After preprocessing duplicate audit, MPEG training contains 3 repeated sequences; validation must group exact equal inputs. MPEG test object 1279 repeats a training phase-zero sequence at both lengths and is excluded from main analysis. All methods rerun under grouped CV; previous results retained, not selected for performance.",
+  "new_configurations": 50
+}

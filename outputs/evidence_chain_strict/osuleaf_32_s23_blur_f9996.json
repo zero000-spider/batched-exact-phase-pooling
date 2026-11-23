@@ -1,0 +1,131 @@
+{
+  "case": "osuleaf_32",
+  "seed": 23,
+  "method": "blur",
+  "budget": 9996,
+  "feature_dim": 9996,
+  "accuracy": 0.7422520661157025,
+  "flip": 0.0981404958677686,
+  "clean_accuracy": 0.7355371900826446,
+  "worst_phase_accuracy": 0.7355371900826446,
+  "selected": {
+    "alpha": 0.1
+  },
+  "cv": [
+    {
+      "alpha": 0.1,
+      "mean_score": 0.785
+    },
+    {
+      "alpha": 1,
+      "mean_score": 0.785
+    },
+    {
+      "alpha": 10,
+      "mean_score": 0.785
+    },
+    {
+      "alpha": 100,
+      "mean_score": 0.785
+    },
+    {
+      "alpha": 1000,
+      "mean_score": 0.78
+    }
+  ],
+  "fold_validation": [
+    {
+      "fold": 0,
+      "alpha": 0.1,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 1,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 10,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 100,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 1000,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 0.1,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 1,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 10,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 100,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 1000,
+      "correct": 52,
+      "total": 67
+    },
+    {
+      "fold": 2,
+      "alpha": 0.1,
+      "correct": 53,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 1,
+      "correct": 53,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 10,
+      "correct": 53,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 100,
+      "correct": 53,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 1000,
+      "correct": 51,
+      "total": 66
+    }
+  ],
+  "validation_scheme": "StratifiedKFold",
+  "seconds": 12.046999999991385,
+  "input_sha256": "bfadb9fb8725fae43a7d184e006a8749b857743317717668ae45394323dca491"
+}

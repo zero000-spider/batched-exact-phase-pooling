@@ -1,0 +1,104 @@
+{
+  "case": "hand_32",
+  "seed": 23,
+  "method": "fourier_svm",
+  "budget": 9996,
+  "feature_dim": 16,
+  "accuracy": 0.8648648648648649,
+  "flip": 0.0722972972972973,
+  "clean_accuracy": 0.8864864864864865,
+  "worst_phase_accuracy": 0.8297297297297297,
+  "selected": {
+    "svc__C": 10,
+    "svc__gamma": "scale"
+  },
+  "cv": [
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.7830135524746303
+    },
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.8169966373559188
+    },
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.6380002757248265
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.8480066893240545
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.8489927052801304
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.8499877122631614
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.8589847332362304
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.8579927232621843
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.8449976923030816
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.8479976982970996
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.8299976623329917
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.8449976923030816
+    }
+  ],
+  "fold_validation": [],
+  "seconds": 0.7350000000005821,
+  "input_sha256": "1b5e155220053ed559bf14adc2a98c809b8b7ed9beb0492246d456938653b3eb"
+}

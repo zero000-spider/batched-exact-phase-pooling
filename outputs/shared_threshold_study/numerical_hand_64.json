@@ -1,0 +1,10 @@
+{
+  "case": "hand_64",
+  "seed": 23,
+  "feature_values": 43282680,
+  "non_bitwise_equal_values": 0,
+  "max_abs_difference": 0.0,
+  "tolerance": 2e-07,
+  "cached_K32_bitwise_equal": true,
+  "sorted_K32_held_batch_bitwise_equal": true
+}

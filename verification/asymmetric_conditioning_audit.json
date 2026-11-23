@@ -1,0 +1,15 @@
+{
+  "response_cases": 420,
+  "threshold_queries": 190890,
+  "maximum_abs_difference": 9.831045844066466e-08,
+  "worst_case": {
+    "length": 4,
+    "exponent": -9,
+    "trial": 3
+  },
+  "decimal_cases": 7,
+  "maximum_decimal_difference": 3.212519883444287e-08,
+  "tolerance": 2e-07,
+  "pooling_source_sha256": "f6a1dc8c051af37cb02046dbb5d15d91b926b7e202786be7def8f6039e7f3279",
+  "scope": "follow-up asymmetric short-edge cancellation audit; no labels; frozen implementation unchanged"
+}

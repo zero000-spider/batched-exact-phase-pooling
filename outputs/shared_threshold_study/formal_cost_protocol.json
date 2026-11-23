@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-16",
+  "before_formal_cost_measurements": true,
+  "source_sha256": {
+    "batched_pooling.py": "f6a1dc8c051af37cb02046dbb5d15d91b926b7e202786be7def8f6039e7f3279",
+    "batched_study.py": "6037afbf2799cbfbf0edc17605ef38ddcc37688ad9482ef8986470ee36fa5bb7",
+    "audit_batched_pooling.py": "e02f0c25dda8e71896f3db388d374d4ac5f61386caff4351ece52083ae9a6c88",
+    "check_batched_benchmark_inputs.py": "d97adba4bd6f03160356aceb1dbed867d7798ab6e2b6e74bd605fe05f3a388de",
+    "batched_e2e_benchmark.py": "260489c1c0c30ab90fb42de34fd74fd1e96ad73b23df0183c6aceb046ce88df7",
+    "batched_synthetic_scaling.py": "c06e2d4b4622e1cb399249afc4ad2540233d762163ff7e7556b057cee1cffb04",
+    "validate_batched_final.py": "e08ef0853bad073dd336b61fc1cd472229a45a5f8fddae3d601006b8e0dd758b"
+  },
+  "revision": "Final cached finite-K baseline additionally uses global response range checks and integer positive counts with literal K. The same range identities are used in cached EI. These preserve the target statistic; synthetic numerical audits and final pipeline replays precede formal cost measurement.",
+  "primary_design": "8 real cases x budgets756/9996/49728; warmed randomized 9-repeat feature timings; strengthen/select K32 backend using training data only.",
+  "secondary_design": "End-to-end EI-trained fixed model, batch1/64 at9996/49728; synthetic white/smooth workloads explicitly labeled; no accuracy claims from synthetic timings.",
+  "preservation": "Earlier development implementations, probes, numerical discrepancies and the original frozen protocol retained.",
+  "source_sha256_before_path_migration": {
+    "batched_pooling.py": "47e2ffe2113657bd8e9a034cf8af65050886134e5379cb7ef0d4309fe3b3bd64",
+    "batched_study.py": "1c589d588ce17900069a80e0a6b6781df8c289b6d049a8037ae39a210bd64911",
+    "audit_batched_pooling.py": "ecbe32862974dc7b2c051a80894e878789f373b9cd1fcc86af1c6c62e211d68f",
+    "check_batched_benchmark_inputs.py": "d97adba4bd6f03160356aceb1dbed867d7798ab6e2b6e74bd605fe05f3a388de",
+    "batched_e2e_benchmark.py": "260489c1c0c30ab90fb42de34fd74fd1e96ad73b23df0183c6aceb046ce88df7",
+    "batched_synthetic_scaling.py": "c06e2d4b4622e1cb399249afc4ad2540233d762163ff7e7556b057cee1cffb04",
+    "validate_batched_final.py": "e08ef0853bad073dd336b61fc1cd472229a45a5f8fddae3d601006b8e0dd758b"
+  },
+  "source_sha256_before_readability_refactor": {
+    "batched_pooling.py": "3ba767daf8181dc59fd9244cd51b11464f6d6bf66d67973e19e7a831135842a0",
+    "batched_study.py": "dea37715cbe36b7b91d8a8a7f22bfd9d9a52f6005d96f1ceff5ab8b9cdb78a84",
+    "audit_batched_pooling.py": "e02f0c25dda8e71896f3db388d374d4ac5f61386caff4351ece52083ae9a6c88",
+    "check_batched_benchmark_inputs.py": "d97adba4bd6f03160356aceb1dbed867d7798ab6e2b6e74bd605fe05f3a388de",
+    "batched_e2e_benchmark.py": "260489c1c0c30ab90fb42de34fd74fd1e96ad73b23df0183c6aceb046ce88df7",
+    "batched_synthetic_scaling.py": "c06e2d4b4622e1cb399249afc4ad2540233d762163ff7e7556b057cee1cffb04",
+    "validate_batched_final.py": "e08ef0853bad073dd336b61fc1cd472229a45a5f8fddae3d601006b8e0dd758b"
+  }
+}

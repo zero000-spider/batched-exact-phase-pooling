@@ -1,0 +1,32 @@
+[
+  {
+    "test": "optimized_vs_literal_and_bound",
+    "K": 64,
+    "pairs": 11089,
+    "passed": true
+  },
+  {
+    "test": "optimized_vs_literal_and_bound",
+    "K": 128,
+    "pairs": 11089,
+    "passed": true
+  },
+  {
+    "test": "optimized_vs_literal_and_bound",
+    "K": 1024,
+    "pairs": 11089,
+    "passed": true
+  },
+  {
+    "test": "MR_requested10000_and_actual9408_parameter_equivalence",
+    "length": 32,
+    "actual_final_dimension": 9408,
+    "passed": true
+  },
+  {
+    "test": "MR_requested10000_and_actual9408_parameter_equivalence",
+    "length": 64,
+    "actual_final_dimension": 9408,
+    "passed": true
+  }
+]

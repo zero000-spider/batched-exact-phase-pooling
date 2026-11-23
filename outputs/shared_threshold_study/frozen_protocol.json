@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-16",
+  "hypothesis": "Exploit multiple thresholds on each shared convolution response to reduce exact phase-averaging cost without changing the statistical target.",
+  "interpolation": "Same periodic piecewise-linear response and strict > threshold semantics as prior EI.",
+  "algorithm": "Segment-uniform mixture survival plus atoms for flat segments; compensated event sweep sorted by response values. Bias orders precomputed once per fitted transform. Hybrid uses direct evaluation if B<8, cached endpoints if 8<=B<L, and sweep if B>=L.",
+  "design_status": "Development used only Fish training inputs and synthetic numerical checks. All original datasets previously inspected. This is an implementation/complexity contribution, not an unseen-data accuracy confirmation.",
+  "baselines": [
+    "original direct EI",
+    "cached-endpoint EI",
+    "sweep EI",
+    "hybrid EI",
+    "original optimized finite K32 counts",
+    "cached endpoints with compile-time K32",
+    "cached endpoints with compile-time K1024",
+    "independent sorted phase-sample K32 with floating-point tie guard",
+    "sorted circular hard PPV",
+    "pinned original MiniRocket transform"
+  ],
+  "fairness": "Strengthened finite-K code shares endpoints and specializes fixed K. Training-only backend profiling considers original/cached/sorted K32. All matched methods share data/budgets/threads.",
+  "numerical": {
+    "cases": [
+      "mpeg7_32",
+      "mpeg7_64",
+      "hand_32",
+      "hand_64",
+      "fish_32",
+      "fish_64",
+      "osuleaf_32",
+      "osuleaf_64"
+    ],
+    "seeds": [
+      23,
+      37,
+      71
+    ],
+    "budget": 9996,
+    "feature_atol": 2e-07,
+    "groundtruth": "original direct EI plus high-precision synthetic references",
+    "workflow": "Refit thresholds/scaler/alpha inside each original inner fold, compare selected alpha and all test predictions with prior formal outputs. Full train/test feature differences and finite-K equality audited on representative full-data passes."
+  },
+  "timing": {
+    "cases": [
+      "mpeg7_32",
+      "mpeg7_64",
+      "hand_32",
+      "hand_64",
+      "fish_32",
+      "fish_64",
+      "osuleaf_32",
+      "osuleaf_64"
+    ],
+    "budgets": [
+      756,
+      9996,
+      49728
+    ],
+    "seed": 23,
+    "batch": 64,
+    "warmed_repeats": 9,
+    "order_seed": 2026111619,
+    "numba_threads": 2,
+    "blas_threads": 1,
+    "exclude": "compilation, input reads, one-time parameter preparation; those preparation costs reported separately",
+    "stage": "after all numerical/replay workers finish",
+    "interpretation": "Local measured implementation performance, no hardware-independent acceleration guarantee"
+  },
+  "source_sha256": {
+    "batched_pooling.py": "f6a1dc8c051af37cb02046dbb5d15d91b926b7e202786be7def8f6039e7f3279",
+    "audit_batched_pooling.py": "e02f0c25dda8e71896f3db388d374d4ac5f61386caff4351ece52083ae9a6c88",
+    "batched_study.py": "6037afbf2799cbfbf0edc17605ef38ddcc37688ad9482ef8986470ee36fa5bb7"
+  },
+  "source_sha256_before_path_migration": {
+    "batched_pooling.py": "ef8507af44e19b7aa62212975f7a14e34628c4ce225a3d6148513ea2c26a66ec",
+    "audit_batched_pooling.py": "ecbe32862974dc7b2c051a80894e878789f373b9cd1fcc86af1c6c62e211d68f",
+    "batched_study.py": "db895316613ac8b4cecdf9a0930c1d57f553123dcf0545ad58335e22f406d157"
+  },
+  "source_sha256_before_readability_refactor": {
+    "batched_pooling.py": "3ba767daf8181dc59fd9244cd51b11464f6d6bf66d67973e19e7a831135842a0",
+    "audit_batched_pooling.py": "e02f0c25dda8e71896f3db388d374d4ac5f61386caff4351ece52083ae9a6c88",
+    "batched_study.py": "dea37715cbe36b7b91d8a8a7f22bfd9d9a52f6005d96f1ceff5ab8b9cdb78a84"
+  }
+}

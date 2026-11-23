@@ -1,0 +1,19 @@
+{
+  "case": "fish_64",
+  "recipe": "self_standard",
+  "seed": 23,
+  "split": 0,
+  "accuracy_pct": 97.71428571428571,
+  "flip_pct": 1.1428571428571428,
+  "objects": 175,
+  "input_sha256": "55d4d6f7a13da8dae4182f94c95569b8e7cc2108473661f53b663d6299a9e954",
+  "selected": {
+    "alpha": 0.001,
+    "feature_dim": 19992,
+    "generated_feature_dim": 99960,
+    "selected_pooling": "PPV_MIX",
+    "num_runs": 10,
+    "mini_classifier_features": 5000
+  },
+  "seconds": 8.458281400002306
+}

@@ -1,0 +1,16 @@
+{
+  "case": "mpeg7_32",
+  "seed": 23,
+  "method": "cyclic_1nn",
+  "budget": 9996,
+  "feature_dim": 32,
+  "accuracy": 0.8446428571428571,
+  "flip": 0.08571428571428572,
+  "clean_accuracy": 0.8514285714285714,
+  "worst_phase_accuracy": 0.8228571428571428,
+  "selected": {},
+  "cv": [],
+  "fold_validation": [],
+  "seconds": 0.875,
+  "input_sha256": "2af213ed1eac633dc5e0817d68bcbaac1da989ff2a372adb63c22fc98d78ef12"
+}

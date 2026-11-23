@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.DS_Store
+Thumbs.db
+reproduced/
+work/jena/
+work/eippv_extension/project/rocket_pilot_data/
+work/eippv_extension/project/contour_submission/experiments/
+*.download

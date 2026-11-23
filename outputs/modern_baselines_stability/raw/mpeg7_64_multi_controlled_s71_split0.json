@@ -1,0 +1,107 @@
+{
+  "case": "mpeg7_64",
+  "recipe": "multi_controlled",
+  "seed": 71,
+  "split": 0,
+  "accuracy_pct": 92.56080114449213,
+  "flip_pct": 3.0221745350500715,
+  "objects": 699,
+  "input_sha256": "c84ea7396c05184ceb11eb57c8235e8e775f65f554c1047ef2256f205e9e6947",
+  "selected": {
+    "alpha": 0.1,
+    "feature_dim": 9408,
+    "cv": [
+      {
+        "fold": 0,
+        "alpha": 0.1,
+        "correct": 199,
+        "total": 234
+      },
+      {
+        "fold": 0,
+        "alpha": 1,
+        "correct": 199,
+        "total": 234
+      },
+      {
+        "fold": 0,
+        "alpha": 10,
+        "correct": 199,
+        "total": 234
+      },
+      {
+        "fold": 0,
+        "alpha": 100,
+        "correct": 198,
+        "total": 234
+      },
+      {
+        "fold": 0,
+        "alpha": 1000,
+        "correct": 196,
+        "total": 234
+      },
+      {
+        "fold": 1,
+        "alpha": 0.1,
+        "correct": 199,
+        "total": 233
+      },
+      {
+        "fold": 1,
+        "alpha": 1,
+        "correct": 199,
+        "total": 233
+      },
+      {
+        "fold": 1,
+        "alpha": 10,
+        "correct": 199,
+        "total": 233
+      },
+      {
+        "fold": 1,
+        "alpha": 100,
+        "correct": 199,
+        "total": 233
+      },
+      {
+        "fold": 1,
+        "alpha": 1000,
+        "correct": 196,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 0.1,
+        "correct": 210,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 1,
+        "correct": 210,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 10,
+        "correct": 210,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 100,
+        "correct": 210,
+        "total": 233
+      },
+      {
+        "fold": 2,
+        "alpha": 1000,
+        "correct": 208,
+        "total": 233
+      }
+    ]
+  },
+  "seconds": 5.247604199976195
+}

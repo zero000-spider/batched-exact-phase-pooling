@@ -1,0 +1,13 @@
+{
+  "n": 64,
+  "seed": 71,
+  "method": "circular",
+  "accuracy": 0.5408536585365853,
+  "flip": 0.634375,
+  "alpha": 100.0,
+  "seconds": 4.702999999994063,
+  "train_objects": 40,
+  "test_objects": 40,
+  "train_images": 200,
+  "test_images": 1640
+}

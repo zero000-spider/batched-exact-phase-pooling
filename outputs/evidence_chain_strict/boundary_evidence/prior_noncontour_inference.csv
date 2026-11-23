@@ -1,0 +1,4 @@
+dataset,contrast,effect_pp_seed_averaged,ci95_low_pp,ci95_high_pp,ei_only_majority_correct,original_only_majority_correct,mcnemar_exact_p,holm_p
+GunPoint,eippv_minus_original,0.0,0.0,0.0,0,0,1.0,1.0
+Coffee,eippv_minus_original,0.0,0.0,0.0,0,0,1.0,1.0
+ECG200,eippv_minus_original,1.0,-1.666666666666667,4.333333333333334,2,1,1.0,1.0

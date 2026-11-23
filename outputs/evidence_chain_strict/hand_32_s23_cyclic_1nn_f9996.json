@@ -1,0 +1,16 @@
+{
+  "case": "hand_32",
+  "seed": 23,
+  "method": "cyclic_1nn",
+  "budget": 9996,
+  "feature_dim": 32,
+  "accuracy": 0.783445945945946,
+  "flip": 0.20506756756756755,
+  "clean_accuracy": 0.8594594594594595,
+  "worst_phase_accuracy": 0.6135135135135135,
+  "selected": {},
+  "cv": [],
+  "fold_validation": [],
+  "seconds": 0.7339999999967404,
+  "input_sha256": "1b5e155220053ed559bf14adc2a98c809b8b7ed9beb0492246d456938653b3eb"
+}

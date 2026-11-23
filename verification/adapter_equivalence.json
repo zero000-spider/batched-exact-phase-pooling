@@ -1,0 +1,48 @@
+{
+  "source_sha256": "9af532d7718dc3a7f9a7ac3ca385f47a4cff3591b10efd2346c32b89baa619fc",
+  "adapter_sha256": "c65fb559ca9559520b13e7d7141301de7d6c80d44c53afb1f51ef3b3cf93b6c1",
+  "source_edits_verified": true,
+  "configurations": [
+    {
+      "length": 32,
+      "feature_dim": 9408,
+      "feature_values_compared": 235200,
+      "fitted_parameters_identical": true,
+      "features_bitwise_equal": true,
+      "ridge_scores_identical": true,
+      "predictions_identical": true,
+      "alpha": 1000.0
+    },
+    {
+      "length": 32,
+      "feature_dim": 49728,
+      "feature_values_compared": 1243200,
+      "fitted_parameters_identical": true,
+      "features_bitwise_equal": true,
+      "ridge_scores_identical": true,
+      "predictions_identical": true,
+      "alpha": 1000.0
+    },
+    {
+      "length": 64,
+      "feature_dim": 9408,
+      "feature_values_compared": 235200,
+      "fitted_parameters_identical": true,
+      "features_bitwise_equal": true,
+      "ridge_scores_identical": true,
+      "predictions_identical": true,
+      "alpha": 1000.0
+    },
+    {
+      "length": 64,
+      "feature_dim": 49728,
+      "feature_values_compared": 1243200,
+      "fitted_parameters_identical": true,
+      "features_bitwise_equal": true,
+      "ridge_scores_identical": true,
+      "predictions_identical": true,
+      "alpha": 1000.0
+    }
+  ],
+  "method": "Pinned upstream source loaded unchanged. Unused logistic import is supplied by a sentinel that raises if called. Only the upstream RidgeClassifierCV binding uses a shim accepting normalize=False for the current sklearn API. Synthetic fixtures exercise both lengths and both feature budgets; upstream and adapter share seeds and inputs."
+}

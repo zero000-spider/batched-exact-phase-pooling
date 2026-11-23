@@ -1,0 +1,17 @@
+{
+  "replayed_author_recipes": 2,
+  "replayed_joint_resplit": true,
+  "main_abstract_words": 229,
+  "citation_entries": 12,
+  "citation_and_reference_targets_pass": true,
+  "braces_balanced": true,
+  "figure_paths_pass": true,
+  "new_figures_embedded_true_type_fonts": [
+    "strong_baseline_accuracy",
+    "split_stability",
+    "modern_split_stability",
+    "high_k_error_agreement"
+  ],
+  "manuscript_compiled": false,
+  "main_layout_visually_verified": false
+}

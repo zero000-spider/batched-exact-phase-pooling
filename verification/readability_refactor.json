@@ -1,0 +1,146 @@
+{
+  "scope": "Descriptive variable names, docstrings and explanatory comments; calculations and control flow preserved.",
+  "files": {
+    "work/batched_pooling.py": {
+      "before_sha256": "3ba767daf8181dc59fd9244cd51b11464f6d6bf66d67973e19e7a831135842a0",
+      "after_sha256": "f6a1dc8c051af37cb02046dbb5d15d91b926b7e202786be7def8f6039e7f3279",
+      "renames": {
+        "prepare_orders": {
+          "order": "threshold_orders",
+          "offset": "group_start",
+          "count": "group_size"
+        },
+        "add_compensated": {
+          "s": "running_sum",
+          "c": "correction",
+          "x": "term",
+          "t": "updated_sum"
+        },
+        "direct_queries": {
+          "v": "response",
+          "bs": "thresholds",
+          "out": "pooled",
+          "n": "length",
+          "j": "threshold_index",
+          "b": "threshold",
+          "total": "positive_length",
+          "i": "edge_index"
+        },
+        "cached_endpoint_queries": {
+          "v": "response",
+          "bs": "thresholds",
+          "out": "pooled",
+          "n": "length",
+          "low": "edge_lower",
+          "high": "edge_upper",
+          "ascending": "edge_rising",
+          "minimum": "response_min",
+          "maximum": "response_max",
+          "a": "left_value",
+          "b": "right_value",
+          "q": "threshold_index",
+          "total": "positive_length",
+          "positives": "positive_samples",
+          "i": "edge_index"
+        },
+        "sweep_queries": {
+          "v": "response",
+          "bs": "thresholds",
+          "order": "threshold_order",
+          "n": "length",
+          "out": "pooled",
+          "events": "density_events",
+          "atoms": "point_masses",
+          "ix": "vertex_order",
+          "lo": "response_min",
+          "hi": "response_max",
+          "smallest": "smallest_edge",
+          "delta": "edge_height",
+          "weight": "edge_density",
+          "a": "left_value",
+          "b": "right_value",
+          "j": "next_edge_index",
+          "i": "edge_index",
+          "density": "active_density",
+          "dc": "density_correction",
+          "area": "remaining_mass",
+          "ac": "mass_correction",
+          "position": "scan_position",
+          "cursor": "vertex_cursor",
+          "qi": "threshold_index",
+          "x": "vertex_value",
+          "vertex": "vertex_index",
+          "val": "pooled_value"
+        },
+        "sorted_sample_queries": {
+          "v": "response",
+          "bs": "thresholds",
+          "order": "threshold_order",
+          "n": "length",
+          "samples": "phase_samples",
+          "cursor": "count_le_threshold",
+          "i": "edge_index",
+          "a": "left_value",
+          "b": "right_value",
+          "qi": "threshold_index",
+          "near": "at_rounding_tie",
+          "total": "positive_length",
+          "out": "pooled",
+          "tolerance": "tie_tolerance"
+        },
+        "batched_features": {
+          "x": "signals",
+          "v": "response",
+          "bs": "thresholds",
+          "order": "threshold_order",
+          "out": "feature_matrix",
+          "offset": "group_start",
+          "count": "threshold_count",
+          "di": "dilation_index",
+          "result": "pooled_response",
+          "min_count": "sweep_min_thresholds"
+        }
+      },
+      "alpha_equivalent": true
+    },
+    "work/batched_study.py": {
+      "before_sha256": "dea37715cbe36b7b91d8a8a7f22bfd9d9a52f6005d96f1ceff5ab8b9cdb78a84",
+      "after_sha256": "6037afbf2799cbfbf0edc17605ef38ddcc37688ad9482ef8986470ee36fa5bb7",
+      "renames": {
+        "fast_transform": {
+          "x": "signals",
+          "p": "parameters",
+          "order": "threshold_orders",
+          "mode": "pooling_mode"
+        }
+      },
+      "alpha_equivalent": true
+    },
+    "work/modern_extension.py": {
+      "before_sha256": "501424b1990e32a0c808c2b628d208cc222cef63f3c8f223fe23fc9d8b598916",
+      "after_sha256": "877546812fffc3ca96ad550852d9e5698c4225d0c5f2c8859e1a6f3ae639e1f9",
+      "renames": {
+        "strict_fit": {
+          "d": "inputs",
+          "x": "train_signals",
+          "y": "train_labels",
+          "g": "training_groups",
+          "correct": "correct_per_alpha",
+          "cv": "cv_records",
+          "fold": "fold_index",
+          "tr": "fit_indices",
+          "va": "validation_indices",
+          "p": "parameters",
+          "ft": "fit_features",
+          "fv": "validation_features",
+          "sc": "scaler",
+          "i": "alpha_index",
+          "a": "ridge_alpha",
+          "mod": "classifier",
+          "c": "num_correct"
+        }
+      },
+      "alpha_equivalent": true
+    }
+  }
+}

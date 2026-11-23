@@ -1,0 +1,9 @@
+{
+  "configurations": 336,
+  "prediction_checks": 336,
+  "total_predictions_checked": 1123740,
+  "standard_configurations": 96,
+  "resplit_configurations": 240,
+  "controlled_dimensions_equal": true,
+  "original_results_unchanged": true
+}

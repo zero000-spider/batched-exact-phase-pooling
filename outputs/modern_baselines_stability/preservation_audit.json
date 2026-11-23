@@ -1,0 +1,17 @@
+{
+  "old_files_unchanged": 604,
+  "author_multirocket_top_level_functions_identical": [
+    "_fit_biases",
+    "_fit_dilations",
+    "_quantiles",
+    "fit",
+    "transform"
+  ],
+  "fused_checks": 32,
+  "joint_pipeline_replay": {
+    "case": "fish_32_phase16_s23_split101",
+    "predictions_identical": true,
+    "model_selection_identical": true,
+    "predictions": 1575
+  }
+}

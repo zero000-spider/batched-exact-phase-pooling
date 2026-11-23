@@ -1,0 +1,108 @@
+{
+  "case": "fish_32",
+  "seed": 23,
+  "budget": 9996,
+  "backend": "hybrid",
+  "alpha": 100,
+  "feature_dim": 9996,
+  "accuracy_pct": 93.85714285714286,
+  "flip_pct": 1.8571428571428572,
+  "input_sha256": "678203884e13ff8c1f13913a729aacd1b5dc0b2926702a70056abd93653d14e0",
+  "cv": [
+    {
+      "fold": 0,
+      "alpha": 0.1,
+      "correct": 52,
+      "total": 59
+    },
+    {
+      "fold": 0,
+      "alpha": 1,
+      "correct": 52,
+      "total": 59
+    },
+    {
+      "fold": 0,
+      "alpha": 10,
+      "correct": 52,
+      "total": 59
+    },
+    {
+      "fold": 0,
+      "alpha": 100,
+      "correct": 52,
+      "total": 59
+    },
+    {
+      "fold": 0,
+      "alpha": 1000,
+      "correct": 51,
+      "total": 59
+    },
+    {
+      "fold": 1,
+      "alpha": 0.1,
+      "correct": 49,
+      "total": 58
+    },
+    {
+      "fold": 1,
+      "alpha": 1,
+      "correct": 49,
+      "total": 58
+    },
+    {
+      "fold": 1,
+      "alpha": 10,
+      "correct": 49,
+      "total": 58
+    },
+    {
+      "fold": 1,
+      "alpha": 100,
+      "correct": 50,
+      "total": 58
+    },
+    {
+      "fold": 1,
+      "alpha": 1000,
+      "correct": 51,
+      "total": 58
+    },
+    {
+      "fold": 2,
+      "alpha": 0.1,
+      "correct": 49,
+      "total": 58
+    },
+    {
+      "fold": 2,
+      "alpha": 1,
+      "correct": 49,
+      "total": 58
+    },
+    {
+      "fold": 2,
+      "alpha": 10,
+      "correct": 49,
+      "total": 58
+    },
+    {
+      "fold": 2,
+      "alpha": 100,
+      "correct": 50,
+      "total": 58
+    },
+    {
+      "fold": 2,
+      "alpha": 1000,
+      "correct": 49,
+      "total": 58
+    }
+  ],
+  "seconds": 8.035014599998249,
+  "prior_predictions": 1575,
+  "prediction_mismatches": 0,
+  "alpha_identical": true,
+  "cv_counts_identical": true
+}

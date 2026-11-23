@@ -1,0 +1,129 @@
+{
+  "path_mapping": {
+    "\u5171\u4eab\u9608\u503c\u8ba1\u7b97\u8fed\u4ee3_20261116": "shared_threshold_study",
+    "\u6295\u7a3f\u8bc1\u636e\u94fe_\u4e25\u683c\u590d\u9a8c": "evidence_chain_strict",
+    "\u73b0\u4ee3\u57fa\u7ebf\u4e0e\u5212\u5206\u7a33\u5b9a\u6027_20261116": "modern_baselines_stability",
+    "\u771f\u5b9e\u591a\u89c6\u89d2\u9a8c\u8bc1_ETH80_\u6b63\u5f0f": "eth80_multiview",
+    "\u771f\u5b9e\u591a\u89c6\u89d2\u9a8c\u8bc1_ETH80_\u5206\u7ec4\u9a8c\u8bc1": "eth80_grouped_diagnostic",
+    "\u771f\u5b9e\u591a\u89c6\u89d2\u9a8c\u8bc1_ETH80": "eth80_legacy_diagnostic",
+    "\u51b3\u5b9a\u6027\u5b9e\u9a8c_20261115": "initial_confirmation"
+  },
+  "changed_sources": {
+    "work/analyze_complete.py": {
+      "before": "51ff48a472d1925dc349911283a54346c4ed84b5f470808f9256efec2ae6157b",
+      "change": "Retained statistical helper functions verbatim; omitted historical report/bundle generator",
+      "after": "5f1d5fcea201c653da3b01f27119c05fad4e2ad6170d99a36bb3282297f191ad"
+    },
+    "work/analyze_submission_chain.py": {
+      "before": "2bab3e03de40fcc48434ceb7d2b2fa396784448ee3f80d7027e67be3d8891bef",
+      "change": "ASCII output path literals only; omitted internal narrative report generation",
+      "after": "d8e8eeb11e3b9fb0de44387fd12df95940a7e7861c5d5df2256e1adc12d90794"
+    },
+    "work/analyze_eth80.py": {
+      "before": "3898955b8e31ebc98bac4fc5c7e8345a06ca5a05e06056389050f4c479e81228",
+      "change": "ASCII output path literals only; retained numerical analysis/plots and summary; omitted internal narrative and bundle generation",
+      "after": "5904c053b0cf6ab3bd5a6515d7cbee857dcaa7f7a406fa303cf28e6733066475"
+    },
+    "plot_results.py": {
+      "change": "ASCII paths and PNG-first export order preserving original manuscript pixels; numerical inputs unchanged",
+      "before": "f30286933c8c6c1d6e81309be5251ef1a707358a7a7a55f3406146168ad71f96",
+      "after": "b46803c7857a067468b4e092ffbe36e1c0f6929ec3cff253d4b80c1d58c4d411"
+    },
+    "reproduce.py": {
+      "change": "ASCII output path literals only",
+      "before": "4743e75d7ebab7679a86940b3708caf0eaaeaff8208489ef30b3fc5a04d3040f",
+      "after": "f45f7d8cef06a29ff936790ae32186e434f573a30479a448fa18028807952fab"
+    },
+    "work/analyze_modern_extension.py": {
+      "change": "ASCII output path literals only",
+      "before": "f4bd93e96943a9fcccc3e2c08b4f4a623393d34873a7c7229a0f2936316a7ee0",
+      "after": "1f68083b6fee1071f88fe3ac0d38fe368acd779ba48792a47ca24d617a1136e7"
+    },
+    "work/audit_batched_pooling.py": {
+      "change": "ASCII output path literals only",
+      "before": "ecbe32862974dc7b2c051a80894e878789f373b9cd1fcc86af1c6c62e211d68f",
+      "after": "e02f0c25dda8e71896f3db388d374d4ac5f61386caff4351ece52083ae9a6c88"
+    },
+    "work/batched_pooling.py": {
+      "change": "ASCII paths plus descriptive variable names, docstrings, comments and layout; calculations and control flow alpha-equivalent",
+      "before": "47e2ffe2113657bd8e9a034cf8af65050886134e5379cb7ef0d4309fe3b3bd64",
+      "after": "f6a1dc8c051af37cb02046dbb5d15d91b926b7e202786be7def8f6039e7f3279"
+    },
+    "work/batched_study.py": {
+      "change": "ASCII paths plus descriptive variable names, docstrings, comments and layout; calculations and control flow alpha-equivalent",
+      "before": "1c589d588ce17900069a80e0a6b6781df8c289b6d049a8037ae39a210bd64911",
+      "after": "6037afbf2799cbfbf0edc17605ef38ddcc37688ad9482ef8986470ee36fa5bb7"
+    },
+    "work/check_batched_conditioning.py": {
+      "change": "ASCII output path literals only",
+      "before": "338f8ec81e0ba2bc1244f0dc9db7167d17e4bde9e314d44ee38ff262142355db",
+      "after": "0b0335b62d5b585d57d86c68c5ea8bf19edbfb3608a3182a8c74ce1382177c4f"
+    },
+    "work/complete_experiments.py": {
+      "change": "ASCII output path literals only",
+      "before": "0212c0beca9b00e228631389bb550bb1861bc0da776aea9c05454306d1bc3964",
+      "after": "940ebd395d37c724f1de0aa4a91a7ffb0fbe91d431cd7d554a5ca4bb2d3f1542"
+    },
+    "work/eth80_real.py": {
+      "change": "ASCII output path literals only",
+      "before": "c829629aabbba99afb867591a73774adfca0813e693cf0611f8a5053d1c07f2e",
+      "after": "8d0e611fec3bd2cda6818eb550bda4a89ce33f99fd922db53693d17a90d418ee"
+    },
+    "work/modern_extension.py": {
+      "change": "ASCII paths plus descriptive variable names, docstrings, comments and layout; calculations and control flow alpha-equivalent",
+      "before": "612e81bccbea2c90906c9b7d69b754b5133712a15c25e4187c232417a036e2fb",
+      "after": "877546812fffc3ca96ad550852d9e5698c4225d0c5f2c8859e1a6f3ae639e1f9"
+    },
+    "work/prepare_chain_inputs.py": {
+      "change": "ASCII output path literals only",
+      "before": "bc195ef267bf19c269b30b79548a1ca2a08958c7b61c8c72611fc26d26e357ec",
+      "after": "019107d228a14f6ad5ef43dc814f72f8ec9e6171272a7aa8e2478b781c3d6648"
+    },
+    "work/run_batched_costs.py": {
+      "change": "ASCII output path literals only",
+      "before": "8986b4aad22f73936e3708360c6bc27d0651fdaaecb8e1e4ce86c676687e39a3",
+      "after": "9bfd996aa171338c17833159b7a9362abedd31d234ce3191c30ae4804cc21279"
+    },
+    "work/submission_chain.py": {
+      "change": "ASCII output path literals only",
+      "before": "0bbe754baaf945af6e2e233eb534fa2d04ea6bce5cf7f5199aa9924a812dc8fd",
+      "after": "af672986996ab9c64f6469c3114bba0415dd124c60e592ecdf5a933f6b50a44d"
+    },
+    "work/modern_baselines/multirocket_ridge_compat.py": {
+      "change": "Release entrypoint, provenance checks or documentation",
+      "before": "9e8ad78fcf39dd4e9f279ed8f380f3736c66b6468fcc39754944afb9653e9931",
+      "after": "c65fb559ca9559520b13e7d7141301de7d6c80d44c53afb1f51ef3b3cf93b6c1"
+    }
+  },
+  "removed_files": [
+    "work/modern_baselines/MultiRocket/data/sample/Beef/README.md",
+    "work/modern_baselines/MultiRocket/data/sample/Coffee/README.md",
+    "work/modern_baselines/MultiRocket/data/sample/Crop/README.md",
+    "work/modern_baselines/MultiRocket/data/sample/ECG200/README.md",
+    "work/modern_baselines/MultiRocket/data/sample/ElectricDevices/README.md",
+    "work/modern_baselines/MultiRocket/data/sample/InsectWingbeatSound/README.md",
+    "work/modern_baselines/MultiRocket/data/sample/StarLightCurves/README.md",
+    "outputs/modern_baselines_stability/execution_recovery.json",
+    "work/modern_baselines/MultiRocket/README.md",
+    "work/modern_baselines/SelF-Rocket/README.md"
+  ],
+  "edited_metadata": {
+    "outputs/evidence_chain_strict/protocol.json": {
+      "before": "7d3ae2bd599ec8df1873359043c715f43f40c8d9e2fd50307b86b77c2407b2b2",
+      "change": "Editorial prose only; numerical fields unchanged"
+    },
+    "outputs/modern_baselines_stability/protocol.json": {
+      "before": "eb62d645eac62c2d0465f04fc599d50cf97d58da93e4eae4ed95eebc0a270d92",
+      "change": "Editorial prose only; numerical fields unchanged"
+    },
+    "outputs/shared_threshold_study/frozen_protocol.json": {
+      "before": "f9513adbe2719755003b02f5386b49d56a5b6676a996960e2edd159f1675dbe5",
+      "change": "Editorial prose only; numerical fields unchanged"
+    }
+  },
+  "updated_source_manifests": 2,
+  "added_sources": [
+    "work/audit_adapter_equivalence.py",
+    "redraw_all_figures.py"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "case": "osuleaf_32",
+  "seed": 23,
+  "budget": 9996,
+  "backend": "hybrid",
+  "alpha": 1000,
+  "feature_dim": 9996,
+  "accuracy_pct": 82.07644628099173,
+  "flip_pct": 5.8884297520661155,
+  "input_sha256": "bfadb9fb8725fae43a7d184e006a8749b857743317717668ae45394323dca491",
+  "cv": [
+    {
+      "fold": 0,
+      "alpha": 0.1,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 1,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 10,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 100,
+      "correct": 54,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 1000,
+      "correct": 55,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 0.1,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 1,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 10,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 100,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 1000,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 2,
+      "alpha": 0.1,
+      "correct": 51,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 1,
+      "correct": 51,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 10,
+      "correct": 51,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 100,
+      "correct": 51,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 1000,
+      "correct": 51,
+      "total": 66
+    }
+  ],
+  "seconds": 1.5774409000005107,
+  "prior_predictions": 2178,
+  "prediction_mismatches": 0,
+  "alpha_identical": true,
+  "cv_counts_identical": true
+}

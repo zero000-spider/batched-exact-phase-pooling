@@ -1,0 +1,131 @@
+{
+  "case": "mpeg7_64",
+  "seed": 71,
+  "method": "phase4",
+  "budget": 9996,
+  "feature_dim": 9996,
+  "accuracy": 0.9153571428571429,
+  "flip": 0.005,
+  "clean_accuracy": 0.9171428571428571,
+  "worst_phase_accuracy": 0.9142857142857143,
+  "selected": {
+    "alpha": 100
+  },
+  "cv": [
+    {
+      "alpha": 0.1,
+      "mean_score": 0.8885714285714286
+    },
+    {
+      "alpha": 1,
+      "mean_score": 0.8885714285714286
+    },
+    {
+      "alpha": 10,
+      "mean_score": 0.8885714285714286
+    },
+    {
+      "alpha": 100,
+      "mean_score": 0.8914285714285715
+    },
+    {
+      "alpha": 1000,
+      "mean_score": 0.8828571428571429
+    }
+  ],
+  "fold_validation": [
+    {
+      "fold": 0,
+      "alpha": 0.1,
+      "correct": 206,
+      "total": 234
+    },
+    {
+      "fold": 0,
+      "alpha": 1,
+      "correct": 206,
+      "total": 234
+    },
+    {
+      "fold": 0,
+      "alpha": 10,
+      "correct": 206,
+      "total": 234
+    },
+    {
+      "fold": 0,
+      "alpha": 100,
+      "correct": 208,
+      "total": 234
+    },
+    {
+      "fold": 0,
+      "alpha": 1000,
+      "correct": 207,
+      "total": 234
+    },
+    {
+      "fold": 1,
+      "alpha": 0.1,
+      "correct": 200,
+      "total": 233
+    },
+    {
+      "fold": 1,
+      "alpha": 1,
+      "correct": 200,
+      "total": 233
+    },
+    {
+      "fold": 1,
+      "alpha": 10,
+      "correct": 200,
+      "total": 233
+    },
+    {
+      "fold": 1,
+      "alpha": 100,
+      "correct": 200,
+      "total": 233
+    },
+    {
+      "fold": 1,
+      "alpha": 1000,
+      "correct": 198,
+      "total": 233
+    },
+    {
+      "fold": 2,
+      "alpha": 0.1,
+      "correct": 216,
+      "total": 233
+    },
+    {
+      "fold": 2,
+      "alpha": 1,
+      "correct": 216,
+      "total": 233
+    },
+    {
+      "fold": 2,
+      "alpha": 10,
+      "correct": 216,
+      "total": 233
+    },
+    {
+      "fold": 2,
+      "alpha": 100,
+      "correct": 216,
+      "total": 233
+    },
+    {
+      "fold": 2,
+      "alpha": 1000,
+      "correct": 213,
+      "total": 233
+    }
+  ],
+  "validation_scheme": "StratifiedGroupKFold_exact_sequence",
+  "seconds": 30.796999999991385,
+  "input_sha256": "c84ea7396c05184ceb11eb57c8235e8e775f65f554c1047ef2256f205e9e6947"
+}

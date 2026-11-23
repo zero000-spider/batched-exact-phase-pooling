@@ -1,0 +1,19 @@
+{
+  "case": "mpeg7_64",
+  "recipe": "self_standard",
+  "seed": 23,
+  "split": 307,
+  "accuracy_pct": 92.42154065620542,
+  "flip_pct": 1.7653352353780314,
+  "objects": 701,
+  "input_sha256": "8fe80c5a59c794c99dd421dde28be49763f438a4da63e4092a68a0c59d251605",
+  "selected": {
+    "alpha": 0.001,
+    "feature_dim": 19992,
+    "generated_feature_dim": 99960,
+    "selected_pooling": "LSPV_MIX",
+    "num_runs": 10,
+    "mini_classifier_features": 5000
+  },
+  "seconds": 27.710420499992324
+}

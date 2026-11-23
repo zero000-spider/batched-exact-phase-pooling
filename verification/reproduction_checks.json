@@ -1,0 +1,379 @@
+{
+  "core": {
+    "name": "fish_32_s23_f9996_hybrid",
+    "predictions": 1575,
+    "all_predictions_and_selection_identical": true,
+    "metadata_sha256": "cf3abb0774e7d4c1b81abc4109e319daa3e383a00480cdeaedb2d339bd29622d",
+    "predictions_sha256": "1e99c849d6b88d2520e7371cd62e0f5a0bc17abff1f4a0c0ebe0b7fa63c3a4c4"
+  },
+  "multi_controlled": [
+    {
+      "name": "fish_32_multi_controlled_s23_split0",
+      "predictions": 1575,
+      "all_arrays_and_selection_identical": true
+    }
+  ],
+  "eippv_controlled": [
+    {
+      "name": "fish_32_eippv_controlled_s23_split0",
+      "predictions": 1575,
+      "all_arrays_and_selection_identical": true
+    }
+  ],
+  "statistics": {
+    "primary_tests_and_effects_and_summary_byte_identical": true
+  },
+  "resplit_inputs": [
+    {
+      "file": "fish_32_split101.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "b5ea9799fce3e0367bd4decf3eed93cc5e8c5a8219a1e39f9c9b58937024cb7b"
+    },
+    {
+      "file": "fish_32_split211.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "92a58d904f6af7d30d25c3c3ee298843d585b8fe9941b3c0331ad9c3f715b81a"
+    },
+    {
+      "file": "fish_32_split307.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "ca4c99873e962844ea3916b2972ecc019d993db3e62a5598098d150f6feb2799"
+    },
+    {
+      "file": "fish_32_split401.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "88361bbcd02c073c6bfbd2d187a8aa16c269a7d9564b41c50f9f4076c2361b8f"
+    },
+    {
+      "file": "fish_32_split503.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "b7ba6ba1eb52c99472a6f8ba38e0dae7b2b9cfd2ee174034692e7c75f2aea60e"
+    },
+    {
+      "file": "fish_64_split101.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "8359acf05473e7dd169c5fe14d8df911623540826d50df993d4d7ae869f8d9ce"
+    },
+    {
+      "file": "fish_64_split211.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "6f17f3354b2325a6fbd7cf75bb283a7216037179439a77cd59889037d2486114"
+    },
+    {
+      "file": "fish_64_split307.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "07f5becef69221c04ec2b9f1370eaafde4aaf5669a2157bf9751585e65426a8b"
+    },
+    {
+      "file": "fish_64_split401.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "93c063f040d7bb48a7bed101ea96f070f17e4d33bd7a724f5f004090ad2879fd"
+    },
+    {
+      "file": "fish_64_split503.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "4814338a93d709fcbc0f7e9203d51751b11c0aafec27817e1e6f72f9dcf6f45b"
+    },
+    {
+      "file": "hand_32_split101.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "68a44e86e9c0eea7f898ea075b2a06895a4e4b5acecfa139d72b1540b85f7403"
+    },
+    {
+      "file": "hand_32_split211.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "60895fadb61304f90fe2fb35a9d4348c1458afee0e6220c05786dad7352c394e"
+    },
+    {
+      "file": "hand_32_split307.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "409db955694ecd1acead071b338f1c8c9fd8b65335cf713734c2aca32c83bfb2"
+    },
+    {
+      "file": "hand_32_split401.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "58c6b5da70a1e7bf35b4f790c24bfd8ba895a39d08b51448a90fe97d83038768"
+    },
+    {
+      "file": "hand_32_split503.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "7b04635995fbcbd5a807a0e2b3fd829ab46f4fb526fa7d1ea8dc58c58bfa4f61"
+    },
+    {
+      "file": "hand_64_split101.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "7c47990f6b2759e6f4cb360d020d0259a0e00d1c1106daee2e71eed89f0be441"
+    },
+    {
+      "file": "hand_64_split211.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "4e5713037a44830efd8370c8e79cdc174a602ed0f2ff3d63e4c8cfd1b2347ad8"
+    },
+    {
+      "file": "hand_64_split307.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "1a7fed920449c309b200471ef70e6d11835c062db09b4d9ee9e4e453d82a5138"
+    },
+    {
+      "file": "hand_64_split401.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "aa5eebe60d1fb3cad9d8bee0899fcaf73b2cd5882c55aab5deb4d5402a1b469d"
+    },
+    {
+      "file": "hand_64_split503.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "e7e04a4523c7c62bf635d2a7827384bb800e76a2157b7b58ca55712fc262c4b2"
+    },
+    {
+      "file": "mpeg7_32_split101.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "11edaf50576dad685efb754099b8cf8ed6f267016059ea30910bef46dc27ee93"
+    },
+    {
+      "file": "mpeg7_32_split211.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "2721024ae86e4cc21bbfe1e0c58b41aeb06c73ceb7a3e54a4e4e1045d70ffdab"
+    },
+    {
+      "file": "mpeg7_32_split307.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "67e87750c39171848d84b7de3da580d5df9112a173ca0880358b885d34ee8117"
+    },
+    {
+      "file": "mpeg7_32_split401.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "35c632291209586caa8a2a779cb8a576e3927ae639de32ceaccc1db74e03c839"
+    },
+    {
+      "file": "mpeg7_32_split503.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "f0519ccc1bdb486c240ec3826f35cad6cdd60fe20df3ab1c06d93b4999ef1663"
+    },
+    {
+      "file": "mpeg7_64_split101.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "f7ef7a6b71f7a7e451145ade64cded75ee2c798e3b6e0a83365f0b9b75c54614"
+    },
+    {
+      "file": "mpeg7_64_split211.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "c95c12fa0537cb1a1cc2b09a3ea4daf2ea3410b7012f81089d4cc36c87fdc8ab"
+    },
+    {
+      "file": "mpeg7_64_split307.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "8fe80c5a59c794c99dd421dde28be49763f438a4da63e4092a68a0c59d251605"
+    },
+    {
+      "file": "mpeg7_64_split401.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "4b5a4bab119669b702b8d6e98365232c03eb3fb5ed45c15decad9eb72f406a43"
+    },
+    {
+      "file": "mpeg7_64_split503.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "dd9baabcb4faeea19c289d6d5568063317a8d312899f1090016a6f6164d20626"
+    },
+    {
+      "file": "osuleaf_32_split101.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "08e2dbdc3d5aa6a6d68d273fb460a298eb2dfdac6aa7aa159c0276c868e84688"
+    },
+    {
+      "file": "osuleaf_32_split211.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "4092896843ea2bf268ec859187c1a08b3a35d7a03a0c87d1c786444ad3af4fe4"
+    },
+    {
+      "file": "osuleaf_32_split307.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "d80f2e71cd5c718bae31e7418cc174e04724f0add26e025fb70a5579d7e697e1"
+    },
+    {
+      "file": "osuleaf_32_split401.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "3d7a96768059fbff387767d816cbb204dd3fe070c22228ca56c9c72bd44524ae"
+    },
+    {
+      "file": "osuleaf_32_split503.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "113c41ffb663a111b6ae5d78bf3242816015f5eea0b567cdbe98aa41501738a5"
+    },
+    {
+      "file": "osuleaf_64_split101.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "774b1d879f4b5f4d6f0d94d518f8510f59ac966d876e429160c4e0d32a9d0e48"
+    },
+    {
+      "file": "osuleaf_64_split211.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "f2c40a59d9e5ed8674229aca398260552c1ea11eefb82cd56aef82e40d1feb79"
+    },
+    {
+      "file": "osuleaf_64_split307.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "c887f45a7190ebaa12e9ab8f6bc8bc4d57de3db6c877c4f5eec4e1fc07a9eacf"
+    },
+    {
+      "file": "osuleaf_64_split401.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "5bd0a38d33906e65c564db82b79378c80460602e7553264a79f4b117f8a99e17"
+    },
+    {
+      "file": "osuleaf_64_split503.npz",
+      "arrays": 9,
+      "all_array_hashes_match": true,
+      "archive_sha256": "50bb19aabf74683044d31967cd9d6da4ea35a1826a82db3b752ea4e77e73fa37"
+    }
+  ],
+  "original_inputs": {
+    "all": [
+      {
+        "dataset": "fish",
+        "provider_archives": [
+          {
+            "dataset": "Fish",
+            "sha256": "5bd72f74fc6f4fc591df3138fc8d09cd0be899401d1464fe0392a9ab4648a56f",
+            "source": "https://www.timeseriesclassification.com/aeon-toolkit/Fish.zip",
+            "downloaded": false
+          }
+        ],
+        "inputs": [
+          {
+            "file": "input_fish_32.npz",
+            "arrays": 6,
+            "all_array_hashes_match": true,
+            "archive_sha256": "678203884e13ff8c1f13913a729aacd1b5dc0b2926702a70056abd93653d14e0"
+          },
+          {
+            "file": "input_fish_64.npz",
+            "arrays": 6,
+            "all_array_hashes_match": true,
+            "archive_sha256": "55d4d6f7a13da8dae4182f94c95569b8e7cc2108473661f53b663d6299a9e954"
+          }
+        ]
+      },
+      {
+        "dataset": "hand",
+        "provider_archives": [
+          {
+            "dataset": "HandOutlines",
+            "sha256": "786d456b927fd85e614f42b189c59f23a60678da4ec6c2a08f2519b9e21c25fb",
+            "source": "https://www.timeseriesclassification.com/aeon-toolkit/HandOutlines.zip",
+            "downloaded": false
+          }
+        ],
+        "inputs": [
+          {
+            "file": "input_hand_32.npz",
+            "arrays": 6,
+            "all_array_hashes_match": true,
+            "archive_sha256": "576b4d67ff793d62c423935aa141e62300df1a10637c1e71ca3645802ecd6ef0"
+          },
+          {
+            "file": "input_hand_64.npz",
+            "arrays": 6,
+            "all_array_hashes_match": true,
+            "archive_sha256": "24011356a21cd8b087cb67a2a6c925eb32e011d190f320217a050d9453a6b466"
+          }
+        ]
+      },
+      {
+        "dataset": "osuleaf",
+        "provider_archives": [
+          {
+            "dataset": "OSULeaf",
+            "sha256": "9950d9e17d32bd457cf16ad1347d1031e0e0d4d4a205a38ef67beda6f9d66388",
+            "source": "https://www.timeseriesclassification.com/aeon-toolkit/OSULeaf.zip",
+            "downloaded": false
+          }
+        ],
+        "inputs": [
+          {
+            "file": "input_osuleaf_32.npz",
+            "arrays": 6,
+            "all_array_hashes_match": true,
+            "archive_sha256": "bfadb9fb8725fae43a7d184e006a8749b857743317717668ae45394323dca491"
+          },
+          {
+            "file": "input_osuleaf_64.npz",
+            "arrays": 6,
+            "all_array_hashes_match": true,
+            "archive_sha256": "9081a2f4b632e8affa7c224f721604c6470956a9eb7f0747a3facbc102dfaf3b"
+          }
+        ]
+      },
+      {
+        "dataset": "mpeg7",
+        "provider_archives": [
+          {
+            "dataset": "mpeg7_shape_b",
+            "sha256": "331b197caf51b0a3cfd76852aeec46b1fb839fa9374b2a7302754cb92fe0680c",
+            "source": "https://dabi.temple.edu/external/shape/MPEG7/MPEG7dataset.zip",
+            "downloaded": false
+          }
+        ],
+        "inputs": [
+          {
+            "file": "input_mpeg7_32.npz",
+            "arrays": 6,
+            "all_array_hashes_match": true,
+            "archive_sha256": "ac6f93d6934485b18f9ea018b3d7b260b47bfdcdb96938526101be4812810261"
+          },
+          {
+            "file": "input_mpeg7_64.npz",
+            "arrays": 6,
+            "all_array_hashes_match": true,
+            "archive_sha256": "0b3a07461fc9e7655977ea8fee014ac8bce5feca4faee41125d1b4746bfca239"
+          }
+        ]
+      }
+    ]
+  },
+  "plot_sources": {
+    "outputs/evidence_chain_strict/primary_tests.csv": "60b0109aa3ea0fef4d87f657f08309f8e0d421ac731481087aa8efb3f873e96c",
+    "outputs/modern_baselines_stability/high_k_features.csv": "4c9f20c2971c28a7f8556bad1d29134570e2315c86097617cc06f19d58c80140",
+    "outputs/shared_threshold_study/feature_speedups.csv": "5a5626a5e5b4afbe659364e435dd38a8d32fd64f7a014faff3fa6615f1726673",
+    "outputs/shared_threshold_study/end_to_end_speedups.csv": "83e8b2114302c24e90d27a481d5b5515c053958281d539c4c6966fc8d37191ab",
+    "outputs/shared_threshold_study/synthetic_scaling.csv": "82f79737897641ec4393d792fe91003a5aee6dbccd7c43a730bccde095a79ebb"
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "method": "Source-data replay, exact PNG pixel comparison, PDF drawing-stream comparison, and DOCX embedded-media SHA256 checks. No probabilistic AI-image detector is used.",
+  "archived_figures": [
+    {
+      "file": "outputs/eth80_multiview/accuracy.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "redrawn_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "945d6da74acd7da893071f09cd1699916fc9e1ea182bf88cc70f5e5c742767a1",
+      "redrawn_sha256": "945d6da74acd7da893071f09cd1699916fc9e1ea182bf88cc70f5e5c742767a1",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 32,
+        "vector_path_operators": 309,
+        "drawing_stream_sha256": "3381830d1cd23215ace05b2636746bdfba4dfd962a08c637b76e0c1331237f70",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/eth80_multiview/flip.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "redrawn_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "0094bd10b1e3eaf6b2baabc182eefdb8111724b150c979a77b4d9acf22d9734d",
+      "redrawn_sha256": "0094bd10b1e3eaf6b2baabc182eefdb8111724b150c979a77b4d9acf22d9734d",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 33,
+        "vector_path_operators": 315,
+        "drawing_stream_sha256": "d4353845d6f53e55b8d9604eee4328f32dba46ca2765027e858eac22fd36f4b5",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/boundary_evidence/prior_ETH80_accuracy.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "redrawn_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "945d6da74acd7da893071f09cd1699916fc9e1ea182bf88cc70f5e5c742767a1",
+      "redrawn_sha256": "945d6da74acd7da893071f09cd1699916fc9e1ea182bf88cc70f5e5c742767a1",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 32,
+        "vector_path_operators": 309,
+        "drawing_stream_sha256": "3381830d1cd23215ace05b2636746bdfba4dfd962a08c637b76e0c1331237f70",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/boundary_evidence/prior_ETH80_flip.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "redrawn_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "0094bd10b1e3eaf6b2baabc182eefdb8111724b150c979a77b4d9acf22d9734d",
+      "redrawn_sha256": "0094bd10b1e3eaf6b2baabc182eefdb8111724b150c979a77b4d9acf22d9734d",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 33,
+        "vector_path_operators": 315,
+        "drawing_stream_sha256": "d4353845d6f53e55b8d9604eee4328f32dba46ca2765027e858eac22fd36f4b5",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/boundary_evidence/prior_feature_error_vs_k.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1536,
+        2160,
+        4
+      ],
+      "redrawn_shape": [
+        1536,
+        2160,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "f65f2ee982f4c1debe39c4c3c2d3d07dc2016ad6adbc0be48d7091b5d618553b",
+      "redrawn_sha256": "f65f2ee982f4c1debe39c4c3c2d3d07dc2016ad6adbc0be48d7091b5d618553b",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 80,
+        "vector_path_operators": 1181,
+        "drawing_stream_sha256": "fc8627d1eb5e19f3fea0fdd21b8e2beacb889e28345850dfaad89065739ee473",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/boundary_evidence/prior_noncontour_accuracy.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1059,
+        1995,
+        4
+      ],
+      "redrawn_shape": [
+        1059,
+        1995,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "9e5f04be4c233bb14dfb93d9df66cc1431352115405479bd930518c774f3b54f",
+      "redrawn_sha256": "9e5f04be4c233bb14dfb93d9df66cc1431352115405479bd930518c774f3b54f",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 17,
+        "vector_path_operators": 194,
+        "drawing_stream_sha256": "5e2214428761b053a18387d50ba7d3476e6562bb865ab6659c5b032d1f85a458",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/chain_accuracy_pct.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3900,
+        3900,
+        4
+      ],
+      "redrawn_shape": [
+        3900,
+        3900,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "d67438b66ab8fefefb099a6014904a0d8035dfbefa14613a23dc371f8ebf486a",
+      "redrawn_sha256": "d67438b66ab8fefefb099a6014904a0d8035dfbefa14613a23dc371f8ebf486a",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 151,
+        "vector_path_operators": 1031,
+        "drawing_stream_sha256": "7ecae3f5d5919dbc9a4c90eae19d26dc163622c0284268bd59276398dc46b527",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/chain_flip_pct.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3900,
+        3900,
+        4
+      ],
+      "redrawn_shape": [
+        3900,
+        3900,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "ee7b5be3b3cad16b832f4d8f4366e3e6dda86c7c7c3bac9e6f49925e591676c4",
+      "redrawn_sha256": "ee7b5be3b3cad16b832f4d8f4366e3e6dda86c7c7c3bac9e6f49925e591676c4",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 146,
+        "vector_path_operators": 1001,
+        "drawing_stream_sha256": "145e0fb7162f09a1e700e8a828f86c9ab606038065fbceb3107fc21d06752a09",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/feature_budget.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "redrawn_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "c795d797c99f6f5ea9a48074d31981fd591a44cec2b96e8cf53936650b4f002c",
+      "redrawn_sha256": "c795d797c99f6f5ea9a48074d31981fd591a44cec2b96e8cf53936650b4f002c",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 32,
+        "vector_path_operators": 380,
+        "drawing_stream_sha256": "f56de1e509d54a4141852d160b5d3f1ca5c01466a2da7814779753fcdd2dc5e1",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/matched_inference_cost.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3900,
+        3900,
+        4
+      ],
+      "redrawn_shape": [
+        3900,
+        3900,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "e62c6480384acffb4c4d7ce063e4ae634a7e4f23b027db3b0add560a530da46f",
+      "redrawn_sha256": "e62c6480384acffb4c4d7ce063e4ae634a7e4f23b027db3b0add560a530da46f",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 136,
+        "vector_path_operators": 1245,
+        "drawing_stream_sha256": "7551a39e46cf8ac1ac40b9e59db9fc6af73e458fb5494292df946dd6ba39561e",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/evidence_chain_strict/primary_effects.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "redrawn_shape": [
+        1200,
+        3000,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "38856ead262ca1524463839a53e6cc0400df0ce21e67c265f3b537e8c980ac58",
+      "redrawn_sha256": "38856ead262ca1524463839a53e6cc0400df0ce21e67c265f3b537e8c980ac58",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 25,
+        "vector_path_operators": 333,
+        "drawing_stream_sha256": "da42d3b93fd65e46c10a60a5339ff8f131d2590ca9e9a5b45f213d075e26290a",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/modern_baselines_stability/high_k_error_agreement.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3600,
+        3600,
+        4
+      ],
+      "redrawn_shape": [
+        3600,
+        3600,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "cc8988f73ca4dc28668c561dbd8a5522babbed67de4336b394f6e94e9c13ca64",
+      "redrawn_sha256": "cc8988f73ca4dc28668c561dbd8a5522babbed67de4336b394f6e94e9c13ca64",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 264,
+        "vector_path_operators": 1133,
+        "drawing_stream_sha256": "d43e1e5df9aeccfbaa8fe0c1e00a9df3ab998a0e71becc2327217957b21e1259",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/modern_baselines_stability/modern_split_stability.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3300,
+        3600,
+        4
+      ],
+      "redrawn_shape": [
+        3300,
+        3600,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "f55761c6865159846e05c3b1b788911d72d8158833fcc98cb10951a80f3d214d",
+      "redrawn_sha256": "f55761c6865159846e05c3b1b788911d72d8158833fcc98cb10951a80f3d214d",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 116,
+        "vector_path_operators": 1021,
+        "drawing_stream_sha256": "3988ed37e5d0198fb1883d930488b4cd4c31bf487acaef1ab650c6443480f195",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/modern_baselines_stability/split_stability.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3300,
+        3600,
+        4
+      ],
+      "redrawn_shape": [
+        3300,
+        3600,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "64d8439af13fdc0506388794a46346e9842298def3c795f44e62e652820eb4cb",
+      "redrawn_sha256": "64d8439af13fdc0506388794a46346e9842298def3c795f44e62e652820eb4cb",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 126,
+        "vector_path_operators": 1193,
+        "drawing_stream_sha256": "36fc954332dcdf857ac67c277e4d92bbfe185217c8fd3564c1869c95c09756d8",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/modern_baselines_stability/strong_baseline_accuracy.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3600,
+        3600,
+        4
+      ],
+      "redrawn_shape": [
+        3600,
+        3600,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "cbc91be977ff91b3e8a79c6cbcc67936ec51dce94685e1774829f1e2a7f49dea",
+      "redrawn_sha256": "cbc91be977ff91b3e8a79c6cbcc67936ec51dce94685e1774829f1e2a7f49dea",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 120,
+        "vector_path_operators": 741,
+        "drawing_stream_sha256": "81d9c3a8e49c1810410f9c8bebab1735d96e8104494abd81464901b5652b8278",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/shared_threshold_study/end_to_end_speedups.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3300,
+        3600,
+        4
+      ],
+      "redrawn_shape": [
+        3300,
+        3600,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "c1eb82e4ddbb76799c59140bfcb89402395ecf0f5c239106849246a0f0be77a2",
+      "redrawn_sha256": "c1eb82e4ddbb76799c59140bfcb89402395ecf0f5c239106849246a0f0be77a2",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 228,
+        "vector_path_operators": 893,
+        "drawing_stream_sha256": "b870516f030789855bfb67480b541e4cde3dfa71e32c85502e18898ab6cceacf",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/shared_threshold_study/feature_speedups.png",
+      "pixel_identical": true,
+      "original_shape": [
+        3600,
+        3600,
+        4
+      ],
+      "redrawn_shape": [
+        3600,
+        3600,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "0ec18fda07403f57543732681fffc8e46caa462a34b610011f9550969920b667",
+      "redrawn_sha256": "0ec18fda07403f57543732681fffc8e46caa462a34b610011f9550969920b667",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 154,
+        "vector_path_operators": 1203,
+        "drawing_stream_sha256": "67cf5f9c6bebcb46bc807081fb9eff9717af415efae8ea005bc203457efd3d28",
+        "redrawn_drawing_stream_identical": true
+      }
+    },
+    {
+      "file": "outputs/shared_threshold_study/synthetic_scaling.png",
+      "pixel_identical": true,
+      "original_shape": [
+        1200,
+        3600,
+        4
+      ],
+      "redrawn_shape": [
+        1200,
+        3600,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "2e177f103d6878536b899c74a092d97f7c290be8eb96e17effe778018a14265a",
+      "redrawn_sha256": "2e177f103d6878536b899c74a092d97f7c290be8eb96e17effe778018a14265a",
+      "pdf": {
+        "pages": 1,
+        "creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "producer": "Matplotlib pdf backend v3.10.8",
+        "raster_image_objects": 0,
+        "text_operators": 49,
+        "vector_path_operators": 335,
+        "drawing_stream_sha256": "cd2bf52f5f4ead465be79678d384152e3c899392edeaac8ec1d2764460ac50a3",
+        "redrawn_drawing_stream_identical": true
+      }
+    }
+  ],
+  "paper_figures": [
+    {
+      "file": "paper_figures/e2e.png",
+      "pixel_identical": true,
+      "original_shape": [
+        744,
+        1584,
+        4
+      ],
+      "redrawn_shape": [
+        744,
+        1584,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "379b3d4f9e350acfa49ed77d81dd50acd0da0f440de45442b72e4b63dc94bb7f",
+      "redrawn_sha256": "379b3d4f9e350acfa49ed77d81dd50acd0da0f440de45442b72e4b63dc94bb7f"
+    },
+    {
+      "file": "paper_figures/feature_cost.png",
+      "pixel_identical": true,
+      "original_shape": [
+        672,
+        1584,
+        4
+      ],
+      "redrawn_shape": [
+        672,
+        1584,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "6e51a429ed7c088c912d0d4c9412587f62c2372a062ab07fb0ba304bcc922c5a",
+      "redrawn_sha256": "6e51a429ed7c088c912d0d4c9412587f62c2372a062ab07fb0ba304bcc922c5a"
+    },
+    {
+      "file": "paper_figures/highk.png",
+      "pixel_identical": true,
+      "original_shape": [
+        720,
+        1584,
+        4
+      ],
+      "redrawn_shape": [
+        720,
+        1584,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "5f2b815209f5f49fba0fc57526a92d4fb4674ecf9dac71deb0cbe84f3efe450e",
+      "redrawn_sha256": "5f2b815209f5f49fba0fc57526a92d4fb4674ecf9dac71deb0cbe84f3efe450e"
+    },
+    {
+      "file": "paper_figures/primary.png",
+      "pixel_identical": true,
+      "original_shape": [
+        744,
+        1584,
+        4
+      ],
+      "redrawn_shape": [
+        744,
+        1584,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "68edcd714f3ca7042df4dafb90672d71c82dcd2c23ba21a99dde7d9bf7808bac",
+      "redrawn_sha256": "68edcd714f3ca7042df4dafb90672d71c82dcd2c23ba21a99dde7d9bf7808bac"
+    },
+    {
+      "file": "paper_figures/synthetic.png",
+      "pixel_identical": true,
+      "original_shape": [
+        672,
+        1584,
+        4
+      ],
+      "redrawn_shape": [
+        672,
+        1584,
+        4
+      ],
+      "changed_pixels": 0,
+      "original_software": "Matplotlib version3.10.8, https://matplotlib.org/",
+      "original_sha256": "f886e23a94e42e92ae4256d0bb083d7c60826359816181ff21a0aa671eb6d66a",
+      "redrawn_sha256": "f886e23a94e42e92ae4256d0bb083d7c60826359816181ff21a0aa671eb6d66a"
+    }
+  ],
+  "documents": [
+    {
+      "document": "source/\u4fee\u6539\u524d\u539f\u7a3f_20261121.docx",
+      "images": [
+        {
+          "member": "word/media/image1.png",
+          "sha256": "68edcd714f3ca7042df4dafb90672d71c82dcd2c23ba21a99dde7d9bf7808bac",
+          "source_figure": "primary.png"
+        },
+        {
+          "member": "word/media/image2.png",
+          "sha256": "6e51a429ed7c088c912d0d4c9412587f62c2372a062ab07fb0ba304bcc922c5a",
+          "source_figure": "feature_cost.png"
+        },
+        {
+          "member": "word/media/image3.png",
+          "sha256": "379b3d4f9e350acfa49ed77d81dd50acd0da0f440de45442b72e4b63dc94bb7f",
+          "source_figure": "e2e.png"
+        },
+        {
+          "member": "word/media/image4.png",
+          "sha256": "5f2b815209f5f49fba0fc57526a92d4fb4674ecf9dac71deb0cbe84f3efe450e",
+          "source_figure": "highk.png"
+        },
+        {
+          "member": "word/media/image5.png",
+          "sha256": "f886e23a94e42e92ae4256d0bb083d7c60826359816181ff21a0aa671eb6d66a",
+          "source_figure": "synthetic.png"
+        }
+      ],
+      "all_media_match_source_figures": true
+    },
+    {
+      "document": "source/\u6536\u5c3e\u6da6\u8272\u524d_20261121.docx",
+      "images": [
+        {
+          "member": "word/media/image1.png",
+          "sha256": "68edcd714f3ca7042df4dafb90672d71c82dcd2c23ba21a99dde7d9bf7808bac",
+          "source_figure": "primary.png"
+        },
+        {
+          "member": "word/media/image2.png",
+          "sha256": "6e51a429ed7c088c912d0d4c9412587f62c2372a062ab07fb0ba304bcc922c5a",
+          "source_figure": "feature_cost.png"
+        },
+        {
+          "member": "word/media/image3.png",
+          "sha256": "379b3d4f9e350acfa49ed77d81dd50acd0da0f440de45442b72e4b63dc94bb7f",
+          "source_figure": "e2e.png"
+        },
+        {
+          "member": "word/media/image4.png",
+          "sha256": "5f2b815209f5f49fba0fc57526a92d4fb4674ecf9dac71deb0cbe84f3efe450e",
+          "source_figure": "highk.png"
+        },
+        {
+          "member": "word/media/image5.png",
+          "sha256": "f886e23a94e42e92ae4256d0bb083d7c60826359816181ff21a0aa671eb6d66a",
+          "source_figure": "synthetic.png"
+        }
+      ],
+      "all_media_match_source_figures": true
+    },
+    {
+      "document": "\u7a00\u758f\u5468\u671f\u8f6e\u5ed3\u6279\u91cf\u7cbe\u786e\u6c60\u5316_\u4e2d\u6587\u521d\u7a3f2.0.docx",
+      "images": [
+        {
+          "member": "word/media/image1.png",
+          "sha256": "68edcd714f3ca7042df4dafb90672d71c82dcd2c23ba21a99dde7d9bf7808bac",
+          "source_figure": "primary.png"
+        },
+        {
+          "member": "word/media/image2.png",
+          "sha256": "6e51a429ed7c088c912d0d4c9412587f62c2372a062ab07fb0ba304bcc922c5a",
+          "source_figure": "feature_cost.png"
+        },
+        {
+          "member": "word/media/image3.png",
+          "sha256": "379b3d4f9e350acfa49ed77d81dd50acd0da0f440de45442b72e4b63dc94bb7f",
+          "source_figure": "e2e.png"
+        },
+        {
+          "member": "word/media/image4.png",
+          "sha256": "5f2b815209f5f49fba0fc57526a92d4fb4674ecf9dac71deb0cbe84f3efe450e",
+          "source_figure": "highk.png"
+        },
+        {
+          "member": "word/media/image5.png",
+          "sha256": "f886e23a94e42e92ae4256d0bb083d7c60826359816181ff21a0aa671eb6d66a",
+          "source_figure": "synthetic.png"
+        }
+      ],
+      "all_media_match_source_figures": true
+    },
+    {
+      "document": "\u7a00\u758f\u5468\u671f\u8f6e\u5ed3\u6279\u91cf\u7cbe\u786e\u6c60\u5316_\u4e2d\u6587\u521d\u7a3f2.0_\u6536\u5c3e\u4fee\u8ba2.docx",
+      "images": [
+        {
+          "member": "word/media/image1.png",
+          "sha256": "68edcd714f3ca7042df4dafb90672d71c82dcd2c23ba21a99dde7d9bf7808bac",
+          "source_figure": "primary.png"
+        },
+        {
+          "member": "word/media/image2.png",
+          "sha256": "6e51a429ed7c088c912d0d4c9412587f62c2372a062ab07fb0ba304bcc922c5a",
+          "source_figure": "feature_cost.png"
+        },
+        {
+          "member": "word/media/image3.png",
+          "sha256": "379b3d4f9e350acfa49ed77d81dd50acd0da0f440de45442b72e4b63dc94bb7f",
+          "source_figure": "e2e.png"
+        },
+        {
+          "member": "word/media/image4.png",
+          "sha256": "5f2b815209f5f49fba0fc57526a92d4fb4674ecf9dac71deb0cbe84f3efe450e",
+          "source_figure": "highk.png"
+        },
+        {
+          "member": "word/media/image5.png",
+          "sha256": "f886e23a94e42e92ae4256d0bb083d7c60826359816181ff21a0aa671eb6d66a",
+          "source_figure": "synthetic.png"
+        }
+      ],
+      "all_media_match_source_figures": true
+    },
+    {
+      "document": "\u7a00\u758f\u5468\u671f\u8f6e\u5ed3\u6279\u91cf\u7cbe\u786e\u6c60\u5316_\u4e2d\u6587\u7a3f.docx",
+      "images": [
+        {
+          "member": "word/media/image1.png",
+          "sha256": "68edcd714f3ca7042df4dafb90672d71c82dcd2c23ba21a99dde7d9bf7808bac",
+          "source_figure": "primary.png"
+        },
+        {
+          "member": "word/media/image2.png",
+          "sha256": "6e51a429ed7c088c912d0d4c9412587f62c2372a062ab07fb0ba304bcc922c5a",
+          "source_figure": "feature_cost.png"
+        },
+        {
+          "member": "word/media/image3.png",
+          "sha256": "379b3d4f9e350acfa49ed77d81dd50acd0da0f440de45442b72e4b63dc94bb7f",
+          "source_figure": "e2e.png"
+        },
+        {
+          "member": "word/media/image4.png",
+          "sha256": "5f2b815209f5f49fba0fc57526a92d4fb4674ecf9dac71deb0cbe84f3efe450e",
+          "source_figure": "highk.png"
+        },
+        {
+          "member": "word/media/image5.png",
+          "sha256": "f886e23a94e42e92ae4256d0bb083d7c60826359816181ff21a0aa671eb6d66a",
+          "source_figure": "synthetic.png"
+        }
+      ],
+      "all_media_match_source_figures": true
+    }
+  ],
+  "archived_png_count": 18,
+  "archived_pdf_count": 18,
+  "paper_png_count": 5,
+  "all_archived_pixels_identical": true,
+  "all_archived_pdf_drawing_streams_identical": true,
+  "all_paper_pixels_identical": true,
+  "all_docx_media_match_source": true,
+  "plotting_source_sha256": {
+    "plot_results.py": "b46803c7857a067468b4e092ffbe36e1c0f6929ec3cff253d4b80c1d58c4d411",
+    "redraw_all_figures.py": "6fda0377f653b459f6ff0f1c6125bedab830e50a8d5befa7141438b05a15e89c"
+  },
+  "archived_input_tables": {
+    "outputs/evidence_chain_strict/summary.csv": "64f7528141a541de2333ea83f584c6958ca910e62069148e764ddf51d350e783",
+    "outputs/evidence_chain_strict/majority_dummy.csv": "d70a5dd89daf687fede9937846c7c9d830c3fb14c5f5c61eb7bd5f3969306456",
+    "outputs/evidence_chain_strict/primary_tests.csv": "60b0109aa3ea0fef4d87f657f08309f8e0d421ac731481087aa8efb3f873e96c",
+    "outputs/evidence_chain_strict/budget_control.csv": "4267e81b6ea31e55d2f580d17caddd21badeaad3eb3c39b25d636090d67f34a3",
+    "outputs/evidence_chain_strict/matched_inference_cost.csv": "cfc9cc3315725b7616d8a040fdfab250f28d83608712521859f4857446572221",
+    "outputs/modern_baselines_stability/strong_baseline_summary.csv": "68d747b7473434cd5d0535e3501b58461fe74a571be45556e0d6dd744015e5ac",
+    "outputs/modern_baselines_stability/split_effects.csv": "b8437efc0d227f1930a11b79d7a8d3185e4adbc63cfe4c62cefce7bcf4c6a430",
+    "outputs/modern_baselines_stability/high_k_features.csv": "4c9f20c2971c28a7f8556bad1d29134570e2315c86097617cc06f19d58c80140",
+    "outputs/shared_threshold_study/feature_speedups.csv": "5a5626a5e5b4afbe659364e435dd38a8d32fd64f7a014faff3fa6615f1726673",
+    "outputs/shared_threshold_study/end_to_end_speedups.csv": "83e8b2114302c24e90d27a481d5b5515c053958281d539c4c6966fc8d37191ab",
+    "outputs/shared_threshold_study/synthetic_scaling.csv": "82f79737897641ec4393d792fe91003a5aee6dbccd7c43a730bccde095a79ebb",
+    "outputs/eth80_multiview/all_results.csv": "4e92f5d25651195d3524e075093ef36eb3cc067fd51f8562597b27370cd344ca",
+    "outputs/evidence_chain_strict/boundary_evidence/prior_phase_sweep.csv": "8a36ac5aebbf148036ba82b9747c08b906c3c772b6a0bdae95e69df262c129c7",
+    "outputs/evidence_chain_strict/boundary_evidence/prior_noncontour_summary.csv": "8b7a6c37cad1228e23c6f24ce05d74cf382fcaab607d94550a912b55a98b6a9d"
+  },
+  "manuscript_input_tables": {
+    "outputs/evidence_chain_strict/primary_tests.csv": "60b0109aa3ea0fef4d87f657f08309f8e0d421ac731481087aa8efb3f873e96c",
+    "outputs/modern_baselines_stability/high_k_features.csv": "4c9f20c2971c28a7f8556bad1d29134570e2315c86097617cc06f19d58c80140",
+    "outputs/shared_threshold_study/feature_speedups.csv": "5a5626a5e5b4afbe659364e435dd38a8d32fd64f7a014faff3fa6615f1726673",
+    "outputs/shared_threshold_study/end_to_end_speedups.csv": "83e8b2114302c24e90d27a481d5b5515c053958281d539c4c6966fc8d37191ab",
+    "outputs/shared_threshold_study/synthetic_scaling.csv": "82f79737897641ec4393d792fe91003a5aee6dbccd7c43a730bccde095a79ebb"
+  }
+}

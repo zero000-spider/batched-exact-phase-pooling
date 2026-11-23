@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Fish",
+    "filename": "Fish.zip",
+    "sha256": "5bd72f74fc6f4fc591df3138fc8d09cd0be899401d1464fe0392a9ab4648a56f",
+    "bytes": 2395350,
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/Fish.zip"
+  },
+  {
+    "name": "OSULeaf",
+    "filename": "OSULeaf.zip",
+    "sha256": "9950d9e17d32bd457cf16ad1347d1031e0e0d4d4a205a38ef67beda6f9d66388",
+    "bytes": 2853760,
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/OSULeaf.zip"
+  },
+  {
+    "name": "HandOutlines",
+    "filename": "HandOutlines.zip",
+    "sha256": "786d456b927fd85e614f42b189c59f23a60678da4ec6c2a08f2519b9e21c25fb",
+    "bytes": 42350229,
+    "url": "https://www.timeseriesclassification.com/aeon-toolkit/HandOutlines.zip"
+  },
+  {
+    "name": "mpeg7_shape_b",
+    "filename": "mpeg7_shape_b.zip",
+    "sha256": "331b197caf51b0a3cfd76852aeec46b1fb839fa9374b2a7302754cb92fe0680c",
+    "bytes": 3422217,
+    "url": "https://dabi.temple.edu/external/shape/MPEG7/dataset.html",
+    "download_url": "https://dabi.temple.edu/external/shape/MPEG7/MPEG7dataset.zip",
+    "alternative_sha256": [
+      "ce8d87409d1b87b07352ebf6e0eafb8884bea6e4027cb7a23c228e7a3685bd0d"
+    ],
+    "equivalence": "All 1,400 selected GIF filenames, order and file bytes match; ZIP paths and auxiliary files differ. See mpeg7_container_equivalence.json."
+  },
+  {
+    "name": "ETH80",
+    "filename": "eth80-contours.tgz",
+    "url": "https://datasets.d2.mpi-inf.mpg.de/eth80/eth80-contours.tgz",
+    "sha256": "fef9f09594b9710bb419898bb7f6dd9ea4aa8a84af9e0c2aade266fa69f2b533"
+  }
+]

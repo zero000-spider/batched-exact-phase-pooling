@@ -1,0 +1,9 @@
+﻿case,exact_predictions_match_previous,finite_K_metrics_recomputed,feature_bound_pass,K_values
+mpeg7_32,True,True,True,"[16, 32, 64, 128, 1024]"
+mpeg7_64,True,True,True,"[16, 32, 64, 128, 1024]"
+hand_32,True,True,True,"[16, 32, 64, 128, 1024]"
+hand_64,True,True,True,"[16, 32, 64, 128, 1024]"
+fish_32,True,True,True,"[16, 32, 64, 128, 1024]"
+fish_64,True,True,True,"[16, 32, 64, 128, 1024]"
+osuleaf_32,True,True,True,"[16, 32, 64, 128, 1024]"
+osuleaf_64,True,True,True,"[16, 32, 64, 128, 1024]"

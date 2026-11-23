@@ -1,0 +1,53 @@
+{
+  "cases": [
+    "mpeg7_32",
+    "mpeg7_64",
+    "hand_32",
+    "hand_64",
+    "fish_32",
+    "fish_64",
+    "osuleaf_32",
+    "osuleaf_64"
+  ],
+  "methods": [
+    "original",
+    "circular",
+    "blur",
+    "phase4",
+    "phase16",
+    "phase32",
+    "eippv",
+    "fourier_svm",
+    "cyclic_1nn"
+  ],
+  "seeds": [
+    23,
+    37,
+    71
+  ],
+  "fold_seed": 20261116,
+  "folds": 3,
+  "alphas": [
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "primary": "EI minus circular: accuracy and flip on four 32-point sources; Holm family 8",
+  "secondary": "EI versus smoothing, phase4/16/32, Fourier-magnitude RBF-SVM, cyclic Euclidean 1NN; descriptive paired intervals",
+  "pooling_budget": 9996,
+  "extra_budget": 756,
+  "validation": "Convolution thresholds and scaler refit within every training fold. Final model refitted on full training partition; test used only once.",
+  "scope": "Follow-up analysis on previously inspected datasets; not preregistered.",
+  "inputs": {
+    "mpeg7_32": "2af213ed1eac633dc5e0817d68bcbaac1da989ff2a372adb63c22fc98d78ef12",
+    "mpeg7_64": "c84ea7396c05184ceb11eb57c8235e8e775f65f554c1047ef2256f205e9e6947",
+    "hand_32": "1b5e155220053ed559bf14adc2a98c809b8b7ed9beb0492246d456938653b3eb",
+    "hand_64": "9e067c4ff313933eff6bbe00b65b13352427fd53f6497a41030d9591a02d3f52",
+    "fish_32": "678203884e13ff8c1f13913a729aacd1b5dc0b2926702a70056abd93653d14e0",
+    "fish_64": "55d4d6f7a13da8dae4182f94c95569b8e7cc2108473661f53b663d6299a9e954",
+    "osuleaf_32": "bfadb9fb8725fae43a7d184e006a8749b857743317717668ae45394323dca491",
+    "osuleaf_64": "9081a2f4b632e8affa7c224f721604c6470956a9eb7f0747a3facbc102dfaf3b"
+  }
+}

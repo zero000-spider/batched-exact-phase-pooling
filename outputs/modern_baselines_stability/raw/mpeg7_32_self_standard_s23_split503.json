@@ -1,0 +1,19 @@
+{
+  "case": "mpeg7_32",
+  "recipe": "self_standard",
+  "seed": 23,
+  "split": 503,
+  "accuracy_pct": 88.64449213161659,
+  "flip_pct": 5.150214592274678,
+  "objects": 699,
+  "input_sha256": "f0519ccc1bdb486c240ec3826f35cad6cdd60fe20df3ab1c06d93b4999ef1663",
+  "selected": {
+    "alpha": 215.44346900318823,
+    "feature_dim": 19992,
+    "generated_feature_dim": 99960,
+    "selected_pooling": "ZC_MIX",
+    "num_runs": 10,
+    "mini_classifier_features": 5000
+  },
+  "seconds": 21.90314280000166
+}

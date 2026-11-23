@@ -1,0 +1,17 @@
+{
+  "all_repository_paths_ascii": true,
+  "unchanged_result_artifacts": 947,
+  "scientific_sources_alpha_equivalent_after_path_and_name_normalization": [
+    "work/batched_pooling.py",
+    "work/batched_study.py",
+    "work/modern_extension.py",
+    "work/submission_chain.py",
+    "work/eippv_extension/project/rocket_mpeg7_confirm.py",
+    "work/eippv_extension/project/rocket_official_experiment.py",
+    "work/eippv_extension/project/rocket_directional_pool.py",
+    "work/eippv_extension/project/rocket_duration_pool.py"
+  ],
+  "statistical_helper_functions_identical": true,
+  "upstream_source_files_unchanged": 18,
+  "eth80_paired_summary_and_results_byte_identical": true
+}

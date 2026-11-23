@@ -1,0 +1,105 @@
+{
+  "case": "fish_64",
+  "seed": 37,
+  "method": "fourier_svm",
+  "budget": 9996,
+  "feature_dim": 32,
+  "accuracy": 0.7992857142857143,
+  "flip": 0.12142857142857143,
+  "clean_accuracy": 0.8057142857142857,
+  "worst_phase_accuracy": 0.7657142857142857,
+  "selected": {
+    "svc__C": 1,
+    "svc__gamma": "scale"
+  },
+  "cv": [
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.3310929281122151
+    },
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.23982076758231052
+    },
+    {
+      "params": {
+        "svc__C": 0.1,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.1769920124683421
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.7766413403467758
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.5998441457237482
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.1826417299824664
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.7710890317553089
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.6113383985973115
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.1826417299824664
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": "scale"
+      },
+      "mean_score": 0.7710890317553089
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": 0.1
+      },
+      "mean_score": 0.6113383985973115
+    },
+    {
+      "params": {
+        "svc__C": 100,
+        "svc__gamma": 1
+      },
+      "mean_score": 0.1826417299824664
+    }
+  ],
+  "fold_validation": [],
+  "validation_scheme": "StratifiedKFold",
+  "seconds": 0.15700000000651926,
+  "input_sha256": "55d4d6f7a13da8dae4182f94c95569b8e7cc2108473661f53b663d6299a9e954"
+}

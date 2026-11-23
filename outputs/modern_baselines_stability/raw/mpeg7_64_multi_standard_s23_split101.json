@@ -1,0 +1,15 @@
+{
+  "case": "mpeg7_64",
+  "recipe": "multi_standard",
+  "seed": 23,
+  "split": 101,
+  "accuracy_pct": 93.02575107296137,
+  "flip_pct": 1.6809728183118742,
+  "objects": 699,
+  "input_sha256": "f7ef7a6b71f7a7e451145ade64cded75ee2c798e3b6e0a83365f0b9b75c54614",
+  "selected": {
+    "alpha": 0.001,
+    "feature_dim": 49728
+  },
+  "seconds": 7.67415720000281
+}

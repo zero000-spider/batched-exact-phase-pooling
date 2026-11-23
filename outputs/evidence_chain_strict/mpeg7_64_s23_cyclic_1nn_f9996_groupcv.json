@@ -1,0 +1,17 @@
+{
+  "case": "mpeg7_64",
+  "seed": 23,
+  "method": "cyclic_1nn",
+  "budget": 9996,
+  "feature_dim": 64,
+  "accuracy": 0.8696428571428572,
+  "flip": 0.023035714285714284,
+  "clean_accuracy": 0.8728571428571429,
+  "worst_phase_accuracy": 0.8657142857142858,
+  "selected": {},
+  "cv": [],
+  "fold_validation": [],
+  "validation_scheme": "StratifiedGroupKFold_exact_sequence",
+  "seconds": 1.2190000000118744,
+  "input_sha256": "c84ea7396c05184ceb11eb57c8235e8e775f65f554c1047ef2256f205e9e6947"
+}

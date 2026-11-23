@@ -1,0 +1,8 @@
+{
+  "configurations": 24,
+  "predictions": 80244,
+  "all_predictions_identical": true,
+  "all_alpha_identical": true,
+  "all_cv_counts_identical": true,
+  "pooling_source_sha256": "47e2ffe2113657bd8e9a034cf8af65050886134e5379cb7ef0d4309fe3b3bd64"
+}

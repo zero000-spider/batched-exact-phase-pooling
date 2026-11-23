@@ -1,0 +1,16 @@
+{
+  "case": "fish_32",
+  "seed": 23,
+  "method": "cyclic_1nn",
+  "budget": 9996,
+  "feature_dim": 32,
+  "accuracy": 0.73,
+  "flip": 0.24857142857142858,
+  "clean_accuracy": 0.7828571428571428,
+  "worst_phase_accuracy": 0.64,
+  "selected": {},
+  "cv": [],
+  "fold_validation": [],
+  "seconds": 0.10900000001129229,
+  "input_sha256": "678203884e13ff8c1f13913a729aacd1b5dc0b2926702a70056abd93653d14e0"
+}

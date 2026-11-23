@@ -1,0 +1,19 @@
+{
+  "case": "osuleaf_64",
+  "recipe": "self_standard",
+  "seed": 23,
+  "split": 401,
+  "accuracy_pct": 86.46694214876032,
+  "flip_pct": 3.512396694214876,
+  "objects": 242,
+  "input_sha256": "5bd0a38d33906e65c564db82b79378c80460602e7553264a79f4b117f8a99e17",
+  "selected": {
+    "alpha": 0.001,
+    "feature_dim": 19992,
+    "generated_feature_dim": 99960,
+    "selected_pooling": "PPV_MIX",
+    "num_runs": 10,
+    "mini_classifier_features": 5000
+  },
+  "seconds": 8.92956689998391
+}

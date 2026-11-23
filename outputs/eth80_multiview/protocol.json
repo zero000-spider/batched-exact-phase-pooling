@@ -1,0 +1,46 @@
+{
+  "dataset": "ETH80 official contour release",
+  "archive_sha256": "fef9f09594b9710bb419898bb7f6dd9ea4aa8a84af9e0c2aade266fa69f2b533",
+  "source": "https://datasets.d2.mpi-inf.mpg.de/eth80/eth80-contours.tgz",
+  "split_seed": 23,
+  "train_objects_per_class": 5,
+  "test_objects_per_class": 5,
+  "train_views": [
+    "000-000",
+    "045-000",
+    "045-090",
+    "045-180",
+    "045-270"
+  ],
+  "test_views": "all 41 real camera views",
+  "samples": [
+    32,
+    64
+  ],
+  "model_seeds": [
+    23,
+    37,
+    71
+  ],
+  "methods": [
+    "original",
+    "circular",
+    "phase16",
+    "phase32",
+    "eippv"
+  ],
+  "features": 9996,
+  "alphas": [
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "primary": "EI minus circular: object mean accuracy and anchor-view disagreement at both lengths; Holm family 4",
+  "anchor": "000-000",
+  "scope": "Real camera viewpoint changes, not repeated identical-pose capture or pure phase shifts. Provider contours used; no evaluation of foreground segmentation.",
+  "exclusion": "Ignore .xvpics thumbnails; require all 80 objects x41 valid closed outer contours; stop on extraction failure, never select based on performance.",
+  "alpha_selection": "5-fold StratifiedGroupKFold by training physical object; StandardScaler fitted separately inside each fold",
+  "classifier_dtype": "float64"
+}

@@ -1,0 +1,9 @@
+﻿case,EI9996_seed23_accuracy_pct,EI49728_seed23_accuracy_pct,K32_49728_seed23_accuracy_pct,EI_minus_K32_pp,interpretation
+mpeg7_32,90.41487839771102,90.46852646638054,90.46852646638054,0.0,"one fixed seed; strict training-only parameter selection; capacity study, not additional independent datasets"
+mpeg7_64,91.84549356223177,92.04220314735336,92.06008583690986,-0.017882689556500964,"one fixed seed; strict training-only parameter selection; capacity study, not additional independent datasets"
+hand_32,91.6891891891892,90.54054054054053,90.43918918918918,0.10135135135135442,"one fixed seed; strict training-only parameter selection; capacity study, not additional independent datasets"
+hand_64,93.00675675675676,93.20945945945947,93.20945945945947,0.0,"one fixed seed; strict training-only parameter selection; capacity study, not additional independent datasets"
+fish_32,93.85714285714286,94.07142857142857,94.0,0.0714285714285694,"one fixed seed; strict training-only parameter selection; capacity study, not additional independent datasets"
+fish_64,97.57142857142857,97.71428571428571,97.64285714285714,0.0714285714285694,"one fixed seed; strict training-only parameter selection; capacity study, not additional independent datasets"
+osuleaf_32,82.07644628099173,83.72933884297521,83.72933884297521,0.0,"one fixed seed; strict training-only parameter selection; capacity study, not additional independent datasets"
+osuleaf_64,87.86157024793388,88.27479338842976,88.27479338842976,0.0,"one fixed seed; strict training-only parameter selection; capacity study, not additional independent datasets"

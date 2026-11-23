@@ -1,0 +1,13 @@
+{
+  "n": 32,
+  "seed": 23,
+  "method": "phase32",
+  "accuracy": 0.5317073170731708,
+  "flip": 0.6693749999999999,
+  "alpha": 1000.0,
+  "seconds": 3.2039999999979045,
+  "train_objects": 40,
+  "test_objects": 40,
+  "train_images": 200,
+  "test_images": 1640
+}

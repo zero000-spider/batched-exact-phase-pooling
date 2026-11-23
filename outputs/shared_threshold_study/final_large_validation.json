@@ -1,0 +1,88 @@
+{
+  "configurations": 16,
+  "predictions": 53496,
+  "all_predictions_alpha_cv_identical": true,
+  "pooling_source_sha256": "47e2ffe2113657bd8e9a034cf8af65050886134e5379cb7ef0d4309fe3b3bd64",
+  "configurations_checked": [
+    {
+      "case": "mpeg7_32",
+      "backend": "hybrid",
+      "predictions": 6291
+    },
+    {
+      "case": "mpeg7_32",
+      "backend": "K32",
+      "predictions": 6291
+    },
+    {
+      "case": "mpeg7_64",
+      "backend": "hybrid",
+      "predictions": 6291
+    },
+    {
+      "case": "mpeg7_64",
+      "backend": "K32",
+      "predictions": 6291
+    },
+    {
+      "case": "hand_32",
+      "backend": "hybrid",
+      "predictions": 3330
+    },
+    {
+      "case": "hand_32",
+      "backend": "K32",
+      "predictions": 3330
+    },
+    {
+      "case": "hand_64",
+      "backend": "hybrid",
+      "predictions": 3330
+    },
+    {
+      "case": "hand_64",
+      "backend": "K32",
+      "predictions": 3330
+    },
+    {
+      "case": "fish_32",
+      "backend": "hybrid",
+      "predictions": 1575
+    },
+    {
+      "case": "fish_32",
+      "backend": "K32",
+      "predictions": 1575
+    },
+    {
+      "case": "fish_64",
+      "backend": "hybrid",
+      "predictions": 1575
+    },
+    {
+      "case": "fish_64",
+      "backend": "K32",
+      "predictions": 1575
+    },
+    {
+      "case": "osuleaf_32",
+      "backend": "hybrid",
+      "predictions": 2178
+    },
+    {
+      "case": "osuleaf_32",
+      "backend": "K32",
+      "predictions": 2178
+    },
+    {
+      "case": "osuleaf_64",
+      "backend": "hybrid",
+      "predictions": 2178
+    },
+    {
+      "case": "osuleaf_64",
+      "backend": "K32",
+      "predictions": 2178
+    }
+  ]
+}

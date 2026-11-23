@@ -1,0 +1,104 @@
+{
+  "case": "osuleaf_32",
+  "seed": 23,
+  "budget": 49728,
+  "backend": "hybrid",
+  "alpha": 0.1,
+  "feature_dim": 49728,
+  "accuracy_pct": 83.72933884297521,
+  "flip_pct": 6.456611570247933,
+  "input_sha256": "bfadb9fb8725fae43a7d184e006a8749b857743317717668ae45394323dca491",
+  "cv": [
+    {
+      "fold": 0,
+      "alpha": 0.1,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 1,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 10,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 100,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 0,
+      "alpha": 1000,
+      "correct": 53,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 0.1,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 1,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 10,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 100,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 1,
+      "alpha": 1000,
+      "correct": 51,
+      "total": 67
+    },
+    {
+      "fold": 2,
+      "alpha": 0.1,
+      "correct": 51,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 1,
+      "correct": 51,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 10,
+      "correct": 51,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 100,
+      "correct": 51,
+      "total": 66
+    },
+    {
+      "fold": 2,
+      "alpha": 1000,
+      "correct": 51,
+      "total": 66
+    }
+  ],
+  "seconds": 10.984710399992764
+}
